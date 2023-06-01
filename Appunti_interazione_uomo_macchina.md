@@ -238,7 +238,7 @@ periferiche HID
 - inertial measurement unit (IMU)
 - dispositivi wearable
   - sensori PPG
-  - EEG headset 
+  - EEG headset
 
 ### Natural User Interface (NUI)
 
