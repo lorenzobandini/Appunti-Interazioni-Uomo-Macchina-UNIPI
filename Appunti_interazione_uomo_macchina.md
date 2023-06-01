@@ -237,6 +237,8 @@ periferiche HID
       - scanner 3D a luce modulata
 - inertial measurement unit (IMU)
 - dispositivi wearable
+  - sensori PPG
+  - EEG headset 
 
 ### Natural User Interface (NUI)
 
@@ -386,7 +388,7 @@ modello devops : sottocategoria agile per cloud
 
 ### Prototipazione di interfacce
 
-prototipo
+pretotipo
 
 thoughtland
 
@@ -427,24 +429,45 @@ tipi di pretotyping
 
 minimum viable product
 
+### Industria 4.0
+
+internet
+
+internet of things (IoT)
+
+story of industry
+
+digital twin
+
+prodotti e servizi smart
+
+nuovi principi del design
+
+- UX per IoT
+- device specializzati con differenti capacità
+- far interagire i dispositivi tra loro
+- controllo remoto
+- design per network
+- design per risparmio d'energia
+
 ## Domande orale
 
-1. differenza tra design thinking e human center design
+1. differenza tra design thinking e human centered design
 2. esempio di mapping
 3. cos'è uno scenarios? da cosa parto per definirli?
 4. cos'è un prototipo? gradi di fedeltà?
 5. cos'è la ppg?
 6. cos'è lo scanner time-of-flight?
-7. user behavior pattern?
+7. user behavior pattern? *
 8. come deve essere un feedback?
-9. differenza tra mockup e prototipo^
+9. differenza tra mockup e prototipo? *mockup
 10. cos'è una imu?
 11. cos'è un sistema di eyetracking e quali tecnologie conosciamo?
-12. cosa sono  l'euristiche di newtan?
+12. cosa sono l'euristiche di newtan? *
 13. quali sono gli errori umani?
-14. prese x persone. quale sarà il numero y che fa le z cose?
+14. prese x persone. quale sarà il numero y che fa le z cose? *
 15. cos'è lo human center design process?
-16. cos'è un test qualitativo?
+16. cos'è il test qualitativo? *
 17. scanner 3d a luce strutturata
 18. cosa sono lapsus d'azione
 19. modello concettuale fa parte del sistema?
@@ -456,14 +479,14 @@ minimum viable product
 25. cos'è un wireframe?
 26. cos'è un modello a doppio diamante?
 27. cos'è un dispositivo aptico?
-28. differenza affor
+28. differenza affordance significativa?
 29. tipi di test?
 30. quali sono i principi fondamentali dell'interazione?
 31. cos'è l'HID protocol?
 32. differenza tra user stories e requirements?
 33. parlami dei vincoli
 34. come devono essere i feedback?
-35. struttura interallacciata
+35. struttura interallacciata *
 36. la regola dei 5 perché?
 37. discoverability e understanding
 38. differenza tra prototipo e pretotipo
@@ -471,4 +494,4 @@ minimum viable product
 40. i 7 stadi dell'azione
 41. come si dividono i sistemi di puntamento?
 42. distruptive innovation
-43. 6 caratteristiche principali del prototipo
+43. 6 caratteristiche principali del prototipo *
