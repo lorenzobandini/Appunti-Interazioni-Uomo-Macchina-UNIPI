@@ -16,7 +16,10 @@ design interfaccia
 
 ### HCD
 
-schema HCD
+human centered design
+
+sviluppo antropocentrico vs sviluppo tecno-centrico
+schema ciclico HCD
 
 - specificare il contesto d'uso
 - specificare i requisiti
@@ -73,9 +76,15 @@ golfi dell'esecuzione e della valutazione
 i 7 stati dell'azione
 
 - scopo
+
+stati d'esecuzione:
+
 - progettare
 - specificare
 - eseguire
+
+stati di valutazione:
+
 - percepire
 - interpretare
 - confrontare
@@ -89,6 +98,8 @@ i 7 principi fondamentali della progettazione
 - cosa significa?
 - va bene? ho realizzato il mio scopo?
 
+feedforward e feedback in interaction
+
 i 7 principi fondamentali del design
 
 - visibilità
@@ -101,10 +112,14 @@ i 7 principi fondamentali del design
   
 pensiero umano
 
+conscio e subconscio
+
 tipi di memoria:
 
 - memoria dichiarativa
 - memoria procedurale
+
+emozioni e cognizione
 
 processing del cervello:
 
@@ -116,18 +131,21 @@ processing del cervello:
 
 root cause analysis
 
-i cinque perché
+i 5 perché
 
 definizione di errore
 
 - lapsus o slips
   - di azione
   - di memoria
-  - mistakes
-- rule based
-  - knowledge based
+- mistakes
+  - rule based
   - knowledge based
   - memory lapse
+
+interruzioni
+
+feedback sbagliati
 
 prevenzione dell'errore
 
@@ -145,6 +163,12 @@ per la prevenzione dell'errore utilizzare:
 - aumentare il numero di controlli
 - migliorare il modello concettuale dell'utente
 - allertare l'operatore umano quando ci si avvicina a un errore
+
+mitigazione dell'errore usando metafora formaggio svizzero:
+
+- aumentare il numero di controlli (fette di formaggio)
+- diminuire la probabilità di errore (buchi nel formaggio)
+- allertare l'operatore umano quando ci si avvicina a un errore (buchi si sono allineati)
 
 ### Le interfacce utente
 
@@ -288,14 +312,40 @@ identificare le personas mediante:
 - feedback
 - prototipazione
 
+dipendentemente dai dati che abbiamo possiamo avere 3 tipi di personas:
+
+- proto-personas
+- qualitative personas
+- statistical personas
+
+principio di Pareto
+
+tipi di informazioni di una personas:
+
+- demografiche
+- personali
+- attitudinali e cognitivi
+- obiettivi e motivazioni
+- comportamentali
+
+personas e archetipi
+
 requirements
 
 - funzionali
 - non funzionali
 
 user stories
+è una breve dichiarazione o astrazione che identifica l'utente e il suo bisogno/obiettivo.
+É un requisito espresso dalla prospettiva di un dell'obiettivo dell'utente.
+aiutano a documentare informazioni pratiche riguardo gli utenti e aiutano gli sviluppatori a tracciare una roadmap.
+struttura: As a 'role', I want 'feature' because 'reason'.
+tutti possono scrivere user stories ad ogni livello di dettagli.
+i dettagli possono essere aggiunti splittando le user stories in multiple user stories o aggiugendo condizioni di soddisfazione.
 
 scenarios
+uno scenario è una situazione che cattura come gli utenti interagiscono con un prodotto.
+
 un buon scenario deve rispondere:
 
 - chi è l'utente?
@@ -315,6 +365,15 @@ modi per scrivere scenarios:
 - full scale task scenarios
 
 casi d'uso
+è una descrizione scritta di come un utente interagisce con un sistema.
+ogni caso d'uso è rappresentato come una sequenza di passaggi che iniziano con l'obiettivo dell'utente e terminano quando l'obiettivo è raggiunto.
+un caso d'uso aggiunge valore perché aiuta a spiegare come il sistema dovrebbe comportarsi e forniscono una lista di obiettivi.
+
+scenarios vs casi d'uso
+uno scenario richiede una situazione che può avere uno o più attori che intraprendono una determinata funzionalità.
+un caso d'uso coinvolge un attore e il flusso che un particolare attore prende in una determinata funzionalità o percorso..
+la differenza principale è la prospettiva.
+
 includono:
 
 - l'utente
