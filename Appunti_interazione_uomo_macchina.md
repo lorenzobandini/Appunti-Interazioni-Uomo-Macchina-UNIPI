@@ -2,11 +2,9 @@
 
 ***Un prodotto che nessuno compra è un prodotto inutile***
 
-***
-
 ## Appunti
 
-### Design
+### design
 
 HMI
 
@@ -70,7 +68,7 @@ comandi centrati sulle attività
 
 ### Come le persone fanno le cose
 
-goldi dell'esecuzione e della valutazione
+golfi dell'esecuzione e della valutazione
 
 i 7 stati dell'azione
 
@@ -341,7 +339,93 @@ i passaggi da seguire per la creazione di un caso d'uso sono:
 6. accoppiare punti in comune tra in vari casi d'uso
 7. ripetere per tutte le personas
 
-***
+### Metodi e strumenti per l'innovazione
+
+disruptive innovation
+
+human centered desing process
+
+fasi:
+
+1. ispirazione
+2. ideazione
+3. implementazione
+
+design thinking
+
+obiettivi:
+
+- avvicinarsi al cliente
+- favorire la creatività e generare idee
+- sperimenare le idee con prototipi
+
+fasi principali:
+
+1. empatizzare
+2. definire
+3. ideare
+4. prototipare
+5. testare
+
+agile, scrum e devops
+
+modello waterfall:
+
+1. analisi dei requisiti
+2. progettazione
+3. svilluppo
+4. collaudo
+5. manutenzione
+
+modello agile
+i 12 principi del modello agile
+
+modello scrum : sottocategoria agile
+
+modello devops : sottocategoria agile per cloud
+
+### Prototipazione di interfacce
+
+prototipo
+
+thoughtland
+
+actionland
+
+pretotype vs prototype
+
+obiettivi del pretotyping sono aiutare a:
+
+- identificare funzionalià chiave
+- decidere le funzionalità da implemtare nel mockup
+- test sui mockup e collezione dei feedback e dati
+- analisi dei dati e determinare il prossimo passo
+
+i 7 pilasti del pretotyping:
+
+- obbedire alla legge del fallimento del mercato
+- assicurarsi di star costruendo il prodotto giusto
+- non perdersi in chiacchere, idee o opinioni
+- fidarsi solo dei propri dati
+- fare pretotyping
+- parlare con i numeri e con i fatti
+- pensa globalmente, testa localmente
+
+Flusso del pretotyping
+
+1. isolare l'assunzione chiave
+2. scegliere un tipo di pretotype
+3. fare ipotesi di mercato
+4. testare il pretotype
+5. imparare, rifinire, hyperzoom
+
+tipi di pretotyping
+
+- fake door
+- mechanical turk
+- impersonator
+
+minimum viable product
 
 ## Domande orale
 
