@@ -417,7 +417,7 @@ Flusso del pretotyping
 
 1. isolare l'assunzione chiave
 2. scegliere un tipo di pretotype
-3. fare ipotesi di mercato
+3. fare ipotesi di mercato (ipotesi XYZ)
 4. testare il pretotype
 5. imparare, rifinire, hyperzoom
 
