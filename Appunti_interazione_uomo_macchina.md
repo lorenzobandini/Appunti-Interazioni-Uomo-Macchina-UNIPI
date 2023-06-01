@@ -336,6 +336,7 @@ requirements
 - non funzionali
 
 user stories
+
 è una breve dichiarazione o astrazione che identifica l'utente e il suo bisogno/obiettivo.
 É un requisito espresso dalla prospettiva di un dell'obiettivo dell'utente.
 aiutano a documentare informazioni pratiche riguardo gli utenti e aiutano gli sviluppatori a tracciare una roadmap.
@@ -344,6 +345,7 @@ tutti possono scrivere user stories ad ogni livello di dettagli.
 i dettagli possono essere aggiunti splittando le user stories in multiple user stories o aggiugendo condizioni di soddisfazione.
 
 scenarios
+
 uno scenario è una situazione che cattura come gli utenti interagiscono con un prodotto.
 
 un buon scenario deve rispondere:
@@ -365,11 +367,13 @@ modi per scrivere scenarios:
 - full scale task scenarios
 
 casi d'uso
+
 è una descrizione scritta di come un utente interagisce con un sistema.
 ogni caso d'uso è rappresentato come una sequenza di passaggi che iniziano con l'obiettivo dell'utente e terminano quando l'obiettivo è raggiunto.
 un caso d'uso aggiunge valore perché aiuta a spiegare come il sistema dovrebbe comportarsi e forniscono una lista di obiettivi.
 
 scenarios vs casi d'uso
+
 uno scenario richiede una situazione che può avere uno o più attori che intraprendono una determinata funzionalità.
 un caso d'uso coinvolge un attore e il flusso che un particolare attore prende in una determinata funzionalità o percorso..
 la differenza principale è la prospettiva.
