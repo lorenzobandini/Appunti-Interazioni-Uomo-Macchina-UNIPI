@@ -585,9 +585,16 @@ Il modello agile è un metodo di sviluppo software che si basa sul creare e risp
 Una cosa che contraddistingue agile è il fatto di concentrarsi sulle persone che fanno il loro lavoro e come lavorano insieme.
 Le soluzioni vengono raggiunte attraverso la collaborazione tra team multidisciplinari e auto-organizzati.
 
-Il modello scrum è una sottocategoria agile
+Il modello scrum è una sottocategoria agile che utilizza un metodo interattivo ed un apporccio incrementale per ottimizzare la prevedibilità e per controllare il rischio.
+Il modello è particolarmenete utile per progetti complessi e con un piccolo numero di persone e funziona sul dividere il progetto in blocchi rapidi per raggiungere piccoli obiettivi alla volta chiamati sprint che non sono più lunghi solitamente di due settimane. Il team traccia i propri progressi in meeting giornalieri di 15 minuti chiamati daily scrum. Un aspetto forte dello scrum è la possbilità di cambiare idea e di adattarsi ai cambiamenti del mercato o alle emergenze poiché il team non si pone il problema di pensare a tutto fin dall'inizio ma si concentra su piccoli obiettivi alla volta.
+Ogni sprint inizia con una pianificazione degli eventi e stabilendo gli obiettivi e termina con una revisione di ciò che è stato fatto nel periodo prestabilito, adattando il prossimo sprint in base ai risultati ottenuti.
+Ci sono 3 ruoli principali in scrum:
 
-modello devops : sottocategoria agile per cloud
+- product owner : responsabile del prodotto e del suo sviluppo
+- scrum master : responsabile del processo e del team
+- team : responsabile dello sviluppo del prodotto
+
+modello devops è sottocategoria agile per cloud che ha la necessita di avere una gestione più flessibile, affidabile, sicura e contollabile gestione dei rilasci con cicli di rilascio più brevi e frequenti.
 
 ### Prototipazione di interfacce
 
