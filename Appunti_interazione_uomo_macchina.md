@@ -284,25 +284,78 @@ struttura dell'interfaccia
 - struttura matriciale
 - struttura a database
 
-architettura dell'informazione
+architettura dell'informazione e natura degli utenti, contenuti e contesti
 
-- componenti principali:
-  - schemi o strutture organizzative
-  - sistemi di labelling
-  - sistemi di navigazione
-  - sistemi di ricerca
-- tipi di schemi organizzativi:
-  - esatti
-    - schema alfabetico
-    - schema cronologico
-    - schema geografico  
-  - soggettivi
-    - topic scheme
-    - task scheme
-    - audience scheme
-    - metaphoric scheme
+componenti principali:
+
+- schemi o strutture organizzative
+- sistemi di labelling
+- sistemi di navigazione
+- sistemi di ricerca
+
+tipi di schemi organizzativi:
+
+- esatti
+  - schema alfabetico
+  - schema cronologico
+  - schema geografico  
+- soggettivi
+  - topic scheme
+  - task scheme
+  - audience scheme
+  - metaphoric scheme
+
+creare ibridi di schemi organizzativi
+
+navigazione nelle interfacce, principi base di findability e discoverability
+
+modelli di comportamento degli utenti per la ricerca di informazioni:
+
+- quit
+- narrow
+- expand
+- pearl growing
+- pogosticking
+- trashing
+- berry picking
+
+antipattern
+
+design pattern:
+
+- autocomplete
+- autosuggest
+- instat result
+- did you mean
+- autocorrect
+- best first
+- partial matches
+- related seraches
+- federated search
+- faceted navigation
+- advanced search
+- scoped search
+- personalization
+- pagination
+- actionable result
+- comparing result
+- unfied discovery
 
 layout di interfacce e componenti
+Document Object Model (DOM): cross-platform e interfaccia language-independent che permette ai programmi e agli script di accedere e aggiornare il contenuto, la struttura e lo stile dei documenti. Rappresenta il documento come un albero di nodi.
+Quando una pagina web JavaScript è caricata, viene creato un Document Object Model (DOM) della pagina che è una rappresentazione object oriented del documento HTML che si interfaccia tra JavaScript e il documento dando la possibilità di:
+
+- aggiungere, cambiare e rimuovere elementi HTML
+- cambiare stili CSS
+- reagire agli eventi
+- creare nuovi eventi
+
+gli elementi dell'interfaccia sono:
+
+- elementi di input
+- elementi di navigazione
+- componenti informativi
+- container
 
 ### UX design
 
@@ -403,6 +456,44 @@ i passaggi da seguire per la creazione di un caso d'uso sono:
 5. considerare le sequenze alternative
 6. accoppiare punti in comune tra in vari casi d'uso
 7. ripetere per tutte le personas
+
+### Front-end design Wireframing
+
+wireframe: per trasmettere la tua idea alle altre persone, si creano progetti che aiutano la comuncazione tra designer e sviluppatori attraverso sketch basici che mostrano la struttura generale.
+
+tipi di wireframe:
+
+- low fidelity: semplici sketch che si concentrano sulla struttura
+- high fidelity: rappresentazioni dettagliate con una basica interfaccia e icone.
+
+contesto ha un importante ruolo nell'UX design per adattarci ai comportamenti e alle preferenze degli utenti.
+
+adattibilità è la capacità di un sistema di adattarsi a diversi contesti senza cambiare la sua struttura e copre le nozioni di:
+
+- responsive design
+- accessibilità
+
+il responsive design è un approccio di progettazione che permette ai siti web di adattarsi a diversi dispositivi e dimensioni dello schermo per avere una buona esperienza coerente con tuti i dispositivi.
+
+tecniche di responsive design:
+
+- flexible grid
+- flexible images
+- media queries & breakpoints
+
+una filosofia di reposive design è mobile first che consiste nel progettare prima per i dispositivi mobili e poi per i desktop e ciò ci fa concentrare prima sulle funzionalità base.
+Ciò si oppone alla degradazione in cui si sviluppa prima per i desktop per poi rimuovere alcune funzionalità per adattarsi ai dispositivi mobili perdendo però consistenza dei vari dispositivi.
+
+altre best practise del responsive design:
+
+- keep it simple : design minimal
+- priorizzare il contenuto
+- progettare per il touch : bottoni grandi
+- ottimizzare tempi di caricamento : ridurre componenti pesanti come immagini
+- testare su diversi dispositivi
+
+adaptive design è un altra alternativa al responsive design che consiste nel creare un interfaccia che si adatta automaticamente ai vari utenti in modo fluido e flessibile.
+Solitamente realizzata creando più versioni del sito web per ogni dispositivo.
 
 ### Metodi e strumenti per l'innovazione
 
