@@ -492,22 +492,65 @@ altre best practise del responsive design:
 - ottimizzare tempi di caricamento : ridurre componenti pesanti come immagini
 - testare su diversi dispositivi
 
-adaptive design è un altra alternativa al responsive design che consiste nel creare un interfaccia che si adatta automaticamente ai vari utenti in modo fluido e flessibile.
+Adaptive design è un altra alternativa al responsive design che consiste nel creare un interfaccia che si adatta automaticamente ai vari utenti in modo fluido e flessibile.
 Solitamente realizzata creando più versioni del sito web per ogni dispositivo.
+
+Adaptive UX ottiene informazione basiche tra i vari utenti e le usa per adattare l'interfaccia e consigliare ad ogni utente cosa è migliore per lui attraverso il collaborative filtering e il content based filtering.
+
+Nell UX design è cruciale anche l'accessibilità che consiste nel rendere il prodotto accessibile a tutti gli utenti indipendentemente dalle loro capacità fisiche o cognitive in modo che ogni utente possa accedere a tutte le funzionalità del prodotto.
+Alcuni problemi di accessibilità sono:
+
+- visuale
+- motoria
+- uditiva
+- convulsioni
+- cognitive
+
+L'azienda W3C ha posto degli standard e delel linee guida per l'accssibilità chiamate Web Content Accessibility Guidelines (WCAG) e consigliano:
+
+- alternative testuali per contenuti non testuali come immagini e grafici
+- sottotioli o altre alternative per contenuti multimediali
+- diversi modi per usufruire dei contentuti
+- contenuti facili da vedere e da ascoltare
+- utenti possono usare altre modalità di input oltre la tastiera
+- struttura facile da navigare e da capire
+
+Oltre ai wireframes che ci aiutano a comunicare le nostre idee, abbiamo bisogno di uno schema di navigazione che ci aiuti a capire come gli utenti possono navigare nel nostro sito web.
+Lo facciamo attraverso gli user flows che sono una rappresentazione visuale di come gli utenti possono navigare nel nostro sito web. I più comuni sono:
+
+- flowchart è un diagramma di flusso che mostra le varie possibili scelte che un utente può fare e le conseguenze di queste scelte.
+- wireflows esprimono un diagramma di flusso usando wireframe invece di descrizioni astratte
 
 ### Metodi e strumenti per l'innovazione
 
-disruptive innovation
+Un innovazione è qualcosa di originale e utile che entra nel mercato e che cambia il modo in cui le persone vivono e lavorano. Spesso è legata al mondo delle invenzioni ma non necessariamente.
 
-human centered desing process
+sustaining innovation cioè migliorare un prodotto esistente:
 
-fasi:
+- step by step
+- basso rischio
+- bassa velocità
+- non cambia organizzazione aziendale
+- non ha bisogno di nuove competenze da parte degli utenti
+- basse probabilità di scalare il mercato
+- target di mercato stabile
 
-1. ispirazione
-2. ideazione
-3. implementazione
+disruptive innovation, usato per creare nuovi mercati cerca di non basarsi sulle tecnologie esistenti per raggiungere utenti che non sono serviti dai prodotti esistenti
 
-design thinking
+human centered desing process cerca di sviluppare un sistema che sia utile e utilizzabile concentrandosi sugli utenti cercando di migliorare l'efficacia e l'efficienza.
+
+Il product management si occupa del cosa mantre il product development si occupa del come. Lavorano insieme, il product development team prende le specifiche dal product manager e le implementa in un prodotto funzionante.
+
+Ideo ha sviluppato un processo di innovazione human centered che si basa su 3 fasi:
+
+1. ispirazione : approfondisce i bisogni e le richieste degli utenti per migliorare uno strumento, osservando come viene usato.
+2. ideazione : si cerca di interpretare le conoscenze assunte per arrivare a qualcosa di più tangibile tramite la creazione di un semplice prototipo. non definitivo e neacnhe perfetto ma utile come punto di partenza per continuare a testare e fare considerazioni.
+3. implementazione : si cerca di capire come il prodotto può essere implementato nel mondo reale e come può essere scalato.
+
+Ciascuna di queste fase è svolta dal team con un approccio a fisarmonica, seguendo uno schema detto "Double Diamond" in cui all'inizio si lavora per produrre idee e soluzioni in quantità (divergenza) per poi concentrarsi su quelle più promettenti (convergenza).
+
+Design thinking è un approccio all'innovazione che poggia le sue fondamenta sulla capacià di risolvere problemi complessi utilizzando una visione e una gestione del progetto basata sulla creatività.
+Si basa su un processo iterativo che cerca di capire l'utente facendo delle assunzioni.
 
 obiettivi:
 
@@ -517,15 +560,20 @@ obiettivi:
 
 fasi principali:
 
-1. empatizzare
-2. definire
-3. ideare
-4. prototipare
-5. testare
+1. empatizzare : identificare il problema e l'obiettivo, scrivendo le personas
+2. definire : delineare i bisogni degli utenti e le varie categorie di utenti, facendo user stories
+3. ideare : ricercare una soluzione al problema, facendo brainstorming
+4. prototipare : realizzare i primi prototipi
+5. testare : testare i prototipi sul campo e raccogliere feedback dagli utenti
+
+Lo Human centered desing è un mindset, un modo di pensare e di approcciarsi allo sviluppo di prodotti, il Design thinking invece è un vero e proprio metodo di lavoro organizzato per fasi che consente di sviluppare prodotti centrati sull'utenze grazie alle tecniche orientate alla stimolazione della creatività e alla produzione di idee.
+Human centered design e Design thinking sono compatibili e combinabili in un metodo detto Social Enterprise Thinking
+
+### Metodi di sviluppo per prodotti innovativi
 
 agile, scrum e devops
 
-modello waterfall:
+modello waterfall è un metodologia lineare per lo sviluppo di progetti in cui ogni fase ricasca sulla successiva ed è strutturato in 5 parti:
 
 1. analisi dei requisiti
 2. progettazione
@@ -533,10 +581,11 @@ modello waterfall:
 4. collaudo
 5. manutenzione
 
-modello agile
-i 12 principi del modello agile
+Il modello agile è un metodo di sviluppo software che si basa sul creare e rispondere al cambiamento e pone le fondamenta sui 12 principi del manifesto per sviluppo software agile
+Una cosa che contraddistingue agile è il fatto di concentrarsi sulle persone che fanno il loro lavoro e come lavorano insieme.
+Le soluzioni vengono raggiunte attraverso la collaborazione tra team multidisciplinari e auto-organizzati.
 
-modello scrum : sottocategoria agile
+Il modello scrum è una sottocategoria agile
 
 modello devops : sottocategoria agile per cloud
 
