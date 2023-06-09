@@ -641,15 +641,32 @@ minimum viable product
 
 ### Industria 4.0
 
-internet
+Quando pensiamo al design di un prodotto connesso, cerchiamo di concentrarci sugli elementi più visibili e tangibili, l'industrial design e la user interface.
+Ma ci sono maggiori preoccupazioni che impattano la user experience. Possiamo avere una bellissima interfaccia ma l'utente potrebbe avere comunque una cattiva esperienza.
+Per questo è importante considerare anche l'industrial design, l'interazione tra i dispositivi e l'interazione tra l'utente e il dispositivo.
 
-internet of things (IoT)
+Con l'internet of things (IoT) i prodotti sono provvisti di proprio identificatore sono connessi tra loro e con il mondo esterno, questo permette di creare nuove esperienze e nuovi servizi.
 
-story of industry
+Negli ultimi secoli l'industria si è sempre evoluta e ha avuto molte fasi:
 
-digital twin
+- Industria 1.0 : meccanizzazione con utilizzo di energia a vapore
+- Industria 2.0 : produzione in serie con utilizzo di energia elettrica
+- Industria 3.0 : automazione con utilizzo di elettronica e informatica
+- Industria 4.0 : smart factory
 
-prodotti e servizi smart
+L'industria 4.0 descrive l'organizzazione di un sistema di produzione intelligente che si basa tecnologie e dispositivi che interagiscono tra loro e una fabbrica intelligente in cui i sistemi computerizzati monitorano processi fisici creando una copia del mondo fisico e prendendo decisioni in autonomia.
+In futuro, le aziende di successo utilizzeranno l'Internet of Things per ottenere una nuova crescita attraverso tre approcci: incrementare i ricavi aumentando la produzione e creando nuovi modelli di business ibridi, sfruttare le tecnologie intelligenti per alimentare l'innovazione e trasformare la loro forza lavoro.
+
+Un digital twin è una replica digitale di un'entità fisica che vengono collegate con un ponte che gli fa scambiare dati ma esistere simultaneamente.
+
+un prodotto smart è un prodotto fisico che ha un servizio digitale al suo centro.
+
+Fare design per un prodotto delle Internet of Things è interamente più complesso del design di un servizio web.
+
+Fare il design di un prodotto IoT richiede un approccio multidisciplinare dato che ci sono vari aspetti del design da considerare non immediatamente visibili.
+UX per IoT richiede una natura specializzata, un abilità di connettere mondo digitale con mondo fisico e  il fatto che i prodotti IoT sono distribuiti su più dispositivi diversi.
+Molte cose dell'IoT sono dispositivi informatici integrati e specializzati, che differentemente dai computer, i loro software e hardware sonon ottimizzati e compiono solo specifiche funzioni.
+La loro UI non è semplicemente a livello software ma spesso è estesa con schermi e bottoni per l'uso di vari controlli e ciò cambia le interazioni che hanno gli utenti con il device che non hanno più il beneficio delle guide che avevano sul web.
 
 nuovi principi del design
 
