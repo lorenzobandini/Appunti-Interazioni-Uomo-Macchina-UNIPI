@@ -198,71 +198,62 @@ interfacce che utilizzano più di un senso:
 - Graphical User Interface (GUI)
 - Multimodal User Interface (MUI)
 
-### Human Interface Design (HID)
+### Human Interface Device (HID)
 
-protocollo HID
+Un HID è un tipo di dispositivo informatica spesso usato da umani che consente l'interazione input/output tra umani e computer. Con HID indichiamo sia i device fisici, sia il protocollo USB-HID.
+Gli HID standard sono stati adottati la prima volta principalemente per semplificare il processo di installazione di ogni device. Tutti i dispositivi definiti HID invece inviano pacchetti auto-descrittivi che possono contenere qualsiasi tipo di dato e formato. Un driver HID su computer analizza i dati e consente l'associazione dinamica dell'I/O dei dati con le funzionalità dell'applicazione.
 
-- identità:
-  - device
-  - host
-- protocolli
-  - bluetooth HID
-  - serial HID
-  - ZigBee HID
-  - HID over I2C
-  - HOGP
+Nel protocollo HID ci sono 2 entità:
+
+- Host : comunica con il device e riceve dati in input dal device in base alle azioni dell'umano e invece gli output attraversano il device e arrivano fino all'umano.
+- Device : è un entità che interagisce direttamente con un umano
+
+Questo protocollo rende l'implementazione di device molto semplice inviando all'host dei packetti di dati chiamati "HID descriptor" che descrivono come sono fatta i pacchetti del device e indicano:
+
+- N° di pacchetti che il device supporta
+- Dimensione dei pacchetti
+- Lo scopo di ogni byte e bit nel pacchetto
   
-periferiche HID
+Il device tipicamente memorizza HID descriptor in ROM così non ha bisogno di capire o analizzare l'HID descriptor. Ci si aspetta che l'host sia più complesso del device, ed ha bisogno, prima di comunicare con il device, di ricevere e analizzare l'HID descriptor. Dato che non tutti gli host potrebbero essere capaci di interpretare l’HID descriptor, HID descrive anche il boot protocol con pacchetti di formato predefinito
+
+HID è stato esteso ad una serie di protocolli:
+
+- bluetooth HID
+- serial HID
+- ZigBee input device
+- HID over I²C
+- HOGP
+  
+Le periferiche HID sono organizzate in 2 categorie:
+
+- di input : basati su sensori che convertonon la realtà fisica in segnali elettrici.
+- di output : basati su attuatori che convertono segnali elettrici in perturbazioni nel mondo reale.
+
+Le varie classi di HID sono:
 
 - testi e caratteri
-  - tastiere
-    - layout fisico
-    - layout virtuale
-    - layout funzionale
-  - lettore codici a barre
-- sistemi di puntamento
-  - classificazione
-    - tipo di input
-      - diretto
-      - indiretto
-    - modo in cui il movimento viene mappato
-      - assoluto
-      - relativo
-    - come i dispositivi producano il segnale
-      - isotonico
-      - isometrico
-      - elastico
-    - velocità in cui si fa avanzare il puntatore
-      - position control
-      - rate control
-  - esempi
-    - eye tracker
-      - bright pupil
-      - dark pupil
-      - passive light  
-    - gaze tracking
-    - data glove
-    - dispostivi aptici
-    - smart papers
-    - lavagne digitali
-- dispositivi per il suono
-  - microfono
-  - array di microfoni
-- sensori di immagini
-  - 3D scanning
-    - passivi
-      - camere stereoscopiche
-      - sistemi fotometrici
-      - tecniche silhouette
-    - attivi
-      - time-of-flight
-      - triangolazione
-      - scanner 3D a luce strutturata
-      - scanner 3D a luce modulata
-- inertial measurement unit (IMU)
-- dispositivi wearable
-  - sensori PPG
-  - EEG headset
+- posizioni (sistemi di puntamento)
+- suoni
+- immagini
+- parametri ambientali
+- posizione
+- parametri fisiologici e biologici
+
+HID testi e caratteri
+
+Il primo dispositivo HID di testi e caratteri più comune è la tastiera ma sono disponibili più tipi in base ad ogni particolare necessità e variano a seconda della dimensione, dal formato (ANSI o ISO) e del sistema operativo su cui verrano utilizzati.
+I layout da prendere in considerazione sono:
+
+- layout fisico : corrisponde al posizionamento dei tast sulla tastiera
+- layout visuale : corrisponde all'arrangiamento dei simboli che appaiano sui tasti
+- layout funzionale : corrisponde all'associazione tasto-significato all'interno di un software
+
+Il layout design più utilizzato dalle popolazioni latine è il QWERTY.
+Esistono inoltre tastiere multifunzione che permettono di estendere le tastiere standard con altri tasti e mappature ma necessitano di driver aggiuntivi per funzionare.
+
+Un altro dispositivo di HID testi e caratteri è il lettore di codice a barre poiché scannerizza è una serializzazione di caratteri e per lo stesso motivo lo è anche il QR code.
+I tag RFID sono un altro dispositivo di HID testi e caratteri che permettono di identificare un oggetto o una persona tramite un segnale radio che può essere passivo o attivo.
+Anche NFC è un dispositivo di HID testi e caratteri come i tag RFID ma funziona con distanza minore, è più lento ma la comunicazione è bidirezionale.
 
 ### Natural User Interface (NUI)
 
@@ -598,13 +589,24 @@ modello devops è sottocategoria agile per cloud che ha la necessita di avere un
 
 ### Prototipazione di interfacce
 
-pretotipo
+Ogni anno le compagnie lanciano migliaia di nuovi prodotti di tutti i tipi nel mercato, ognuno dei quali seguito da un team che sperano nel suo successo, ma la maggior parte di questi prodotti fallisce, circa l'80% fallisce.
+Come nella legge criminale, una persone è innocente finche non vengono trovate prove a suo carico, un prodotto è un fallimento finche non viene dimostrato il contrario.
+L'unico metodo per combattere la legge del fallimento del mercato è quello di testare oggettivamente le idee prima di investire tempo e denaro in un prodotto che potrebbe non avere successo.
+Il pretotyping ci offre strumenti e tecniche di cui abbiamo bisogno per validare un idea con il minimo delle risorse e in tempi brevi.
 
-thoughtland
+Lost in Translation Problem: Un idea è un astrazione che immagini nella tua testa. Nel momento in cui provi a comunicarla ad un'altra persona si ha un problema di traduzione, specialmente quando la tua idea è differente da quella dell'altra persona.
 
-actionland
+Prediction Problem: anche se l'audience capisce la tua idea, non è detto che la capisca allo stesso modo in cui la capisci tu. Ognuno ha la propria esperienza e la propria visione del mondo e questo può portare a fraintendimenti.
 
-pretotype vs prototype
+I falsi positivi sono un problema perchè ti fanno credere che il tuo prodotto sia un successo e ti fanno perdere soldi e tempo mentre i falsi negativi ti fanno credere che il tuo prodotto sia un fallimento e ti fanno perdere un'opportunità.
+Per minimizzare i falsi positivi e i falsi negativi bisogna collezionare dati oggettivi e l'unico modo per farlo è quello di trasportare le proprie idee da thoughtland ad actionland.
+Nella thoughtland usi idee astratte su cui ti poni domande e ricevi opinioni.
+Nella actionland usi artefatti concreti su cui svolgi azioni e collezioni dati.
+
+Un prototipo ti aiuta a fallire più velocemente ma spesso non velocemente abbastanza e comunque con un costo non trascurabile.
+Tra un'idea astratta e un prototipo c'è un'area grigia in cui si può fare pretotyping.
+I pretotipi ci danno la possibilità di collezzionare dati per il mercato che ci aiutano a decidere se iniziare ad investire sull'idea.
+Un pretotipo è un mock-up di un prodotto o servizio che può essere costruito in poco tempo.
 
 obiettivi del pretotyping sono aiutare a:
 
@@ -625,19 +627,76 @@ i 7 pilasti del pretotyping:
 
 Flusso del pretotyping
 
-1. isolare l'assunzione chiave
-2. scegliere un tipo di pretotype
+1. isolare l'assunzione chiave : qual è l'assunzione o funzionalià chiave che se non funziona il prodotto fallisce?
+2. scegliere un tipo di pretotype : qual è il tipo di pretotyping che permette
 3. fare ipotesi di mercato (ipotesi XYZ)
-4. testare il pretotype
-5. imparare, rifinire, hyperzoom
+4. testare il pretotype : mettere il pretotipo nel mondo reale e vedere quante persone sono interessate e quante ci interagiscono
+5. imparare, rifinire, hyperzoom : valutare i risultati, rifinire il pretotipo con i nuovi dati e se l'ipotesi ha retto decidere altre situazioni in cui testare il pretotipo per avere una visione completa.
 
 tipi di pretotyping
 
-- fake door
-- mechanical turk
-- impersonator
+- fake door : un marketing entry point per un prodotto che non esiste ancora e può essere utliizzato per pubblicizzare un servizio non ancora pronto e misurare l'interesse degli utenti. Serve per capire se l'oggetto che si vuole sviluppare può avere successo e risparmiare tempo e denaro. Si può utilizzare questo pretotyping qunado l'idea può essere descritta in poche e semplici parole, senza possedere nulla di fisico.
+- mechanical turk : un servizio che permette di simulare e trasmettere l'esperienza del prodotto finale ad un utente senza che esso sia sviluppato per mostrare la reale esperienza che l'utente avrà con il prodotto.
+- impersonator : è un pretotipo che riesce a far sperimentare un'esperienza all'utente in modo estremamente economico e con lavoro minimo dietro.
+- pinocchio : è un pretotipo chiaramente falso che serve per veicolare un messagio così distante dalla realtà che è faticoso e difficile da spiegare in altri linguaggi naturali, usato spesso per testare l'interesse e il possibile uso di prodotti innovativi non ancora lanciati da nessuno, nemmeno in maniera simile, su mercato.
+- one night stand : una tecnica di veicolazione di un pretotipo che consiste in un market test che offre solo l'esperienza senza alcun altro tipo di infrastruttura
+- facade : è un impersonator ma è usato per dare un'immagine dell'azienda e non del prodotto stesso e viene spesso usato per promuovere servizi.
 
-minimum viable product
+Dopo aver superato le varie fasi di pretotyping ed aver accumulato una sicurezza sufficiente per il successo del prodotto, lo step successivo è quello di produrre il Minimum Viable Product cioè la versione minimale del prodotto contenente solo ed eslusivamente le features che si sono pretotipate attraverso la fase precedente. Non si hanno le mani sul prodotto definitivo ma su qualcosa di vendibile, in modo da ottenere del ricavo e dell'utile che se sufficiente permetterebbe la produzione del prodotto finale.
+
+### Prototipi e Mock-Ups
+
+Un mock-up è una rappresentazione con alta fedeltà del prodotto che include la maggior parte dei dettagli visibili e gli elementi di design del wireframe.
+Quindi i mock-ups possono essere usati per rifinire e far notare gli elementi visuali di design ma peccano di funzionalità e perciò non sono adatti a fare testing.
+I mock-ups vengono usati dai designer per comunicare meglio i loro concetti di design e le funzionalità in modo più efficiente ai resposabili e ai clienti.
+
+Un prototipo è un'implementazione incompleta o approssimativa di un prodotto su cui è possibile interagire prima di rilasciare il prodotto finale.
+C'è sempre bisogno di un prototipo poiché alla prima prova di prodotto si trovano spesso molti problemi e ciò ci permette di testare e rifinire il prodotto prima di rilasciarlo.
+I vantaggi di creare un prototipo sono:
+
+- Creare delle solide fondamenta per l'ideazione del prodotto finale e dare al resposabile una chiara idea dei potenziali benefici, rischi e costi.
+- Cambiamenti possono essere fatti in modo più economico e veloce
+- I feedback degli utenti aiutano ad indentificare gli aspetti su cui lavorari
+- La prototipazione ci da la possibilità do sperimentare per le necessità e i problemi degli utenti in modo da migliorare
+- I responsabili si legano più facilmente al prodotto
+- Time-to-market migliorato grazie alla riduzione degli errori prima del rilascio
+
+Un prototipo assomiglia al prodotto finale in vari gradi di fedeltà che solitamente sono 3:
+
+- Low-Fidelty Prototypes : solitamente fatti con carta e penna, connette i vari low-fidelty wireframes, molto veloce da fare e facile da modificare. Non molto realistico e solitamente sono versione molto acerbe semplificando molto il prodotto finale e le sue funzioni.
+- High-Fidelity Prototypes : prototipi molto più avanzati, solitamente sviluppati attraverso l'uso di software specifici, danno la sensazione di prodotto finito e sono testabili. Hanno bisogno di più tempo e costi per essere creati e modificati.
+- Mid-Fidelity Prototypes : sono un compromesso tra i due prototipi precedenti, sono più realistici dei low-fidelity ma più veloci da creare e modificare dei high-fidelity.
+
+Dimensioni di fideltà di un prototipo:
+
+- Realismo : quanto il prototipo è simile al prodotto finale
+- Scope : ampiezza e profondità del prototipo
+- Funzionalità : quali e come le funzionalità sono implementate
+- dati : se il prototipo funziona su dati reali o simulati
+- autonomia : come il prototipo può operare senza il bisogno dell'utente
+- piattaforma : se il prototipo è un implementazione provvisoria o definitiva
+
+In particolare lo scope ti da informazioni su quanto buono potrà essere il prototipo. Esistono due tipi di scope:
+
+- Orizzontale : ci da un visione d'insieme del sistema, non andando nei dettagli di ogni feature
+- Verticale : ci da una visione approfondita di una singola feature
+
+Tecniche di prototyping:
+
+- Paper Prototypes : è un low-fidelity prototype, creato su carta e rappresentano il layout basico e le funzionalità di un prodotto o servizio, rimanendo una veloce e senza costi via per testare l'interfaccia utente e rifinire prima di investre tempo e risorse in un prototipo più avanzato.
+- Wireframes Prototypes : sono prototipi digitali che rappresentano il layout e le funzionalità di un prodotto o servizio, senza molti dettagli visivi. Richiede creare sketch del layout e delle funzionalità base usando semlici forme e simboli che rappresentano i vari elementi dell'UI
+- Wizard of Oz Prototypes : sono prototipi che simulano il comportamento dei prodotti o servizi usando input umani invece delle tecnologie e vengono spesso utilizzati quando queste tecnologia non sono ancora sviluppate per capirne la reale utilità. ciò richiede spesso più persone per simulare che svolgono interazioni dirette.
+- Functional Prototypes : sono prototipi che includono funzionalità reali del prodotto e sono usati per rifinire gli aspetti tecnici del prodotto. Richiedono la costruzione di prototipi con codice e hardware o strumenti che danno la possibilità di interagire con gli elementi. Sono particolarmente utili per gli stage più avanzati di sviluppo del prodotto.
+- Non-Functional Prototypes : sono prototipi che semrano esattamente come il prodotto reale ma non hanno funzionalità reali e sono usati per testare il design e l'esperienza utente del prodotto prima di investire ulteriori risorse. Un po' di codice sarà comunque necessario ma senza andare nel dettaglio. Possono essere usati per testare sia l'esperienza dell'utente oppure per testare il design visuale del prodotto.
+
+Wireframes vs Mockups vs Prototypes
+
+Le persone spesso fanno confusione tra i vari concetti.
+I prototipi sono versioni più avanzate dei mock-ups che includono funzioni di navigazione e funzioni.
+I designers solitamente usano i mock-ups e i wireframes per creare il prototipo finale.
+I prototipi sono quindi usati per fare testing prima di muoversi nella fase finale di sviluppo.
+
+Se è clickabile e interattivo oppure risponde alle azioni in altro modo è un prototipo funzionale, altrimenti se ha design, colori e immagini è un mock-up, altrimenti è un semplice wireframe.
 
 ### Industria 4.0
 
