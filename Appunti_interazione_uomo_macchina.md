@@ -255,6 +255,66 @@ Un altro dispositivo di HID testi e caratteri è il lettore di codice a barre po
 I tag RFID sono un altro dispositivo di HID testi e caratteri che permettono di identificare un oggetto o una persona tramite un segnale radio che può essere passivo o attivo.
 Anche NFC è un dispositivo di HID testi e caratteri come i tag RFID ma funziona con distanza minore, è più lento ma la comunicazione è bidirezionale.
 
+HID sistemi di puntamento
+
+Sono dispositivi che trasferiscono input di tipo spaziale verso un computer come movimenti fisici dell'utente attraverso movimenti di punatori o altri cambiamenti visivi. Si definisce in merito la legge di Fitt per il calcolo del tempo di movimento.
+
+legge di Fitt:  MT = a + b * log2 (2D/W)
+
+con a definito come il tempo in secondi necessario per iniziare o smettere di muoversi, b la velocità del dispositivo, D la distanza dal punto iniziale al centro dell'obiettivo, W la larghezza dell'obiettivo misurata lungo l'asse su cui ci si sta muovendo.
+
+Si danno i seguenti criteri per la classificazione di dispositivi di puntamento:
+
+- sulla base del tipo di input:
+  - diretto : se il puntatore si trova nella stessa posizione fisica dell'utente
+  - indiretto : quando traduce il movimento sullo schermo
+- sulla base del modo in cui il movimento viene mappato sull'interfaccia:
+  - assoluto : quando il mapping tra lo spostamento nel mondo fisico viene replicato così com'è sul dispositivo
+  - altrimenti
+- sulla base di come i dispositivi producano il segnale sulla bse dello spostamento:
+  - isotonico : si può muovere nello spazio e misura lo spostamento
+  - isometrico : è fisso e misura la forza che viene applicata
+  - elastico : la forza applicata è proporizionale allo spostamento
+- sulla base della velocità con cui si fa avanzare il puntatore:
+  - position control : ci controlla la posizione del puntatore
+  - rate control : ci controlla la velocità e direzione del puntatore
+
+I dispositivi di puntamento innovativi sono l'eye tracker che misurano la posizione della pupilla e i movimenti degli occhi. I vari metodi per estrarre informazioni sono:
+
+- bright-pupil : si illumina con luca infrarossa l'occhio e si misura la posizione della pupilla. La luce è coassiale all'occhio in modo che la pupilla rifletta la luca e illumini di rosso l'occhio.
+- dark-pupil : si illumina con luca infrarossa l'occhio e si misura la posizione della pupilla. La luce non è coassiale all'occhio e la pupilla appare nera.
+- passive light : si misura la posizione della pupilla con la luce ambientale
+Tutto ciò è differente dal gaze tracking che si occupa di capire dove il soccetto stia guardando riportando l'angolo della pupilla nello spazio tridimensionale in cui si trova l'utente. Ma per rendere l'eye tracking un sistema di puntamento va affiancato con il gaze tracking.
+I dispositivi dataglove sono dei guanti che permettono di rilevare i movimenti delle mani e delle dita.
+I dispositivi aptici sono dispositivi che permettono agli utenti di interagire con ambienti virtuali tramite feedback tattili.
+Altri dispositivi sono gli smart paper e le lavagne digitali.
+
+HID suoni
+
+In fisica, un suono è una vibrazione che si propaga attraverso una onda acustica, tramite un gas, liquido o solido. Il suono può essere catturato usando microfoni, device con sensori che convertono suoni in segnali elettrici.
+I microfoni possono ossere usati anche in tandem, formando un array di microfoni in modo di estrarre precisamente il suono che vogliamo evitando suoni indesiderati, come il rumore di fondo, e riconoscere la direzione del suono.
+
+HID video
+
+I sensori di immagini sono sensori che rilevano attraverso le radiazione luminose e convertono immagini in informazioni. Ci sono due tipi di sensori di immagini: i charge-coupled device(CCD) e gli active-pixel sensor(CMOS). Entrambi i sensori sono basati su metal-oxide-semicoductor(MOS).
+Il 3D scanner consiste nel rappresentare dimensione e posizione nello spazio tridimensionale di oggetti e ambienti. I 3D scanner sono divisi in due categorie:
+
+- Passivi : non emettono radiazioni elettromagnetiche, si affidano all'illumazione ambientale. Alcuni esempi:
+  - camere stereoscopiche : usano due camere poste ad una distanza focale simile a quella dell'occhio umano e, calcolando la differenza nelle immagini pixel per pixel, creano una terza immagine detta depthmap per creare l'illusione di profondità
+  - sistemi fotometrici : assumono l’esistenza di una sorgente luminosa controllabile e analizzando gli spostamenti delle ombre al variare dell’incidenza (della sorgente luminosa) vengono calcolati sia la profondità sia il colore.
+  - tecniche silhouette :  tipicamente messe a disposizione anche da applicazioni per dispositivi mobili, scattando più foto dello stesso oggetto da diversi angoli e usando l’accelerometro e la piattaforma iniziale posizionano i piani immagini nello spazio tridimensionale e ricostruiscon l’oggetto.
+- Attivi : emettono radiazioni elettromagnetiche, tipicamente luci, ultrasuoni o raggi x. Alcuni esempi:
+  - time-of-flight : inviano un impulso laser e misurano il tempo di ritorno
+  - triangolazione : inviano un impulso laser, usando l'angolo di riflessione e il disallineamento ottico tra emettitore e ricevitore, permettono di ricostruire la distanza punto-punto.
+  - scanner a luce strutturata : viene proiettata un'immagine geometrica nota su un oggetto tridimensionale e vengono analizzate le deformazioni
+  - scanner a luce modulata : viene proiettata una luce modulata su un oggetto tridimensionale e vengono analizzate le deformazioni
+
+Un Inertial Measurement Unit (IMU) è un dispositivo elettronico che misura e reporta l'accelerazione, la velocità angolare e l'orientamento di un corpo rigido. Un IMU è composto da un accelerometro, un giroscopio e a volte un magnetometro.
+
+I dispositivi indossabili sono device che possono essere indossati dall'utente nei quali l'interfaccia e l'unità computazionale sono uniti e spesso sono specializzati nella raccolta di certi dati biometrici o di movimento.
+Un dispositivo heart rate monitor permette di misurare il battito cardiaco dell'utente utilizzando dei sensori PPG che tipicamente illuminano la pelle e analizzano la luce riflessa. Invece i sensori ECG usano dei sengali elettrici per misuare l'espanzione e la contrazione del cuore.
+Un dispositivo EEG headset permette di monitorare gli impulsi elettrici del cervello posizioando elettrodi non-invasivi sullo scalpo dell'utente.
+
 ### Natural User Interface (NUI)
 
 per essere tale:
