@@ -172,13 +172,20 @@ mitigazione dell'errore usando metafora formaggio svizzero:
 
 ### Le interfacce utente
 
+Un interfaccia è qualcosa che sta fra due facce, un punto di contatto tra due sistemi che cercano di comunicare. Le interfacce possono far comunicare due macchine fra loro oppure possono far comunicare l'uomo con la macchina.
+Solitamente è sempre composta da due parti: uno strumento appartenente ad una persona che serve per compiere un'azione e l'intefaccia che è ciò serve per guidare l'utente nell'esecuzione dell'azione.
+
+Quando parliamo di interfaccia utente intendiamo lo spazio di un sistema dove avviene l'interazione tra uomo e macchina e il loro obiettivo è quello di consentire all'utente di controllare e far funzionare il sistema in modo efficente.
+Quindi l'interfaccia deve essere progettata in modo da semplificare l'interazione fra l'uomo e la macchina per poi pensare a migliorare la User Experience.
+Una buona interfaccia massimizza la quantità di informazioni evitando comunque di sovraccaricare l'utente che deve riuscire ad utilizzare il sistema con il minimo sforzo fisico e cognitivo.
+
 livelli di interfacce:
 
 - Human Interface Device (HID)
 - Human Machine Interface (HMI)
 - Human Computer Interface (HCI)
 
-classificazione delle interfacce:
+Le interfacce utente tipicamente sono organizzate sulla base dei sensi che utilizzano per stabilire l'interazione tra uomo e macchina:
 
 - tactile UI
 - visual UI
@@ -187,16 +194,18 @@ classificazione delle interfacce:
 - gustatory UI
 - equilibrial UI
 
-interfacce che utilizzano più di un senso:
+La maggio parte delle interfacce però utilizzano più di un senso per stabilire il collegamento  e vengono chiamate Composer User Interface (CUI). Tra le più note abbiamo:
 
-- Composite User Interface (CUI) e  classificazione
-  - macrocategorie
-    - standard
-    - virtual
-    - augmented
-  - classificazione per numero di sensi
-- Graphical User Interface (GUI)
-- Multimodal User Interface (MUI)
+- Graphical User Interface (GUI) : composta da interfaccie gradiche e tattile
+- Multimodal User Interface (MUI) : composta da interfaccie che utilizzano più di un senso
+
+Le CUI poi possono essere categorizzate in tre macrocategorie:
+
+- Standard : usano dispositivi standard come tastiere, mouse e monitor
+- Virtual : bloccano all'utente l'interazione con il mondo reale e creano un mondo virtuale che funge da interfaccia
+- Augmented : non bloccano l'utente dalla percezione del mondo reale ma lo vanno ad arricchire, espandendola con un mix tra contenuti reali e virtuali
+
+Le CUI possono essere categorizzate anche tramite il numero di sensi che utilizzano. Ad esempio, lo Smell-O-Vision è una CUI standard 3S (3 sensi) che utilizza la vista, l'olfatto e l'udito. Se si aggiungesse un quarto senso (come ad esempio le poltronne mobili del cinema) diventerebbe 4S. Quando un interfaccia utente interagisce con tutti i sensi umani viene chiamata Qualia Interface.
 
 ### Human Interface Device (HID)
 
@@ -317,14 +326,19 @@ Un dispositivo EEG headset permette di monitorare gli impulsi elettrici del cerv
 
 ### Natural User Interface (NUI)
 
-per essere tale:
+La NUI è un'interfaccia utente naturale e semplice da usare con interazione diretta e consistente con il comportamento naturale. Una interfaccia utente naturale è una interfaccia che è effettivamente invisibile,e resta invisibile mentre l’utente impara progressivamente ad avere interazioni via via più complesse.
+Ci sono dei gesti di tipo touch che oramai fanno parte del background culturale, come il tocco, la lunga pressione, lo scroll, il pinch e lo swipe. Sono diventati intuitivi per gli utenti poiché le interfacce restituiscono il feedback associato molto velocemente.
+La parola “naturale” viene usata in riferimento al goal di progettazione delle interfacce: si ambisce a offrire un’esperienza che non richieda la comprensione di come una macchina funzioni; si punta a un’interfaccia che si comporti come un oggetto fisico
+
+Poichè una NUI sia considerata tale si richiedono:
 
 - apprendimento progressivo
 - expertise instantanea
 - interazione diretta
 - basso carico cognitivo
 
-una strategia per realizzare NUI è l'uso della Reality User Interface (RUI)
+una strategia per realizzare NUI è l'uso della Reality User Interface (RUI), anche conosiuta come Reality-Based Interface (RBI). Un esempio di RUI è l'uso di device indossabili per rendere clickabili oggetti del mondo reale.
+Invece un esempio di NUI non basata su RBI è limitare le funzionalità e le personalizzazioni in modo che gli utenti abbiano ben poco da imparare.
 
 ### Graphical User Interface (GUI)
 
@@ -796,6 +810,26 @@ nuovi principi del design
 - design per network
 - design per risparmio d'energia
 
+### Usability Testing
+
+Quando abbiamo una sorta di prototipo, dovremmo fare testing con gli utenti. Questo processo ci permette di valutare il prodotto o il servizio tramite il giudizio diretto degli utenti interessati. In questo modo possiamo indivisuare varie problematiche da risolvere, capire cosa migliorare e cosa gli utenti preferiscono.
+
+L'usabilità è un attributo qualitativo che ci indica quanto è facile l'interfaccia utente da usare, ed è definita in 5 componenti:
+
+- apprendibilità : quanto è facile per gil utenti completare compiti basilari la prima volta che usano l'interfaccia
+- efficienza : velocità con cui gli utenti completano compiti dopo che hanno imparato l'interfaccia
+- memorabilità : quanto è facile per gli utenti riprendere a usare l'interfaccia dopo un periodo di non utilizzo
+- errori : quanti errori fanno gli utenti, quanto gravi sono e come possono recuperare
+- soddisfazione : quanto piace agli utenti usare l'interfaccia
+
+Nell'UX design, un altro concetto chiave è l'utility che si riferisce alle funzionalità e alle caratteristiche di un prodotto o servizio che soddisfano i bisogni degli utenti.
+
+Usabilità e Utility sono due concetti diversi ma correlati e devono essere sempre buoni entrambi poiché importa poco se qualcosa è facile da usare se non è utile e non è buono se un sistema può ipoteticamente fare quallo che vuoi ma è difficile da usare. Quindi, per far sì che qualcosa sia utile, c'è bisogno che abbia una buona usabilità e utility.
+Quindi testare è essenziale per creare prodotti che incontrano le necessità degli utenti e le aspettative del principio dell'HCD.
+Come metodologia di ricerca dei problemi definiamo un usability-testing session in cui un ricercatore(chiamato facilitatore o moderatore) chiede ad un partecipante di completare delle attività utilizzando il prodotto o servizio in questione mentre gli altri ricercatori osservano e prendono appunti dai feedback.
+
+---------------EURISTIC EVALUATION-----------------
+
 ## Domande orale
 
 1. differenza tra design thinking e human centered design
@@ -809,7 +843,7 @@ nuovi principi del design
 9. differenza tra mockup e prototipo? *mockup
 10. cos'è una imu?
 11. cos'è un sistema di eyetracking e quali tecnologie conosciamo?
-12. cosa sono l'euristiche di newtan? *
+12. cosa sono l'euristiche di nielsen? *
 13. quali sono gli errori umani?
 14. prese x persone. quale sarà il numero y che fa le z cose? *
 15. cos'è lo human center design process?
@@ -832,7 +866,7 @@ nuovi principi del design
 32. differenza tra user stories e requirements?
 33. parlami dei vincoli
 34. come devono essere i feedback?
-35. struttura interallacciata *
+35. struttura di un'interfaccia *
 36. la regola dei 5 perché?
 37. discoverability e understanding
 38. differenza tra prototipo e pretotipo
