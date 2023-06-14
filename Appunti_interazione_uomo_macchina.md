@@ -828,7 +828,72 @@ Usabilità e Utility sono due concetti diversi ma correlati e devono essere semp
 Quindi testare è essenziale per creare prodotti che incontrano le necessità degli utenti e le aspettative del principio dell'HCD.
 Come metodologia di ricerca dei problemi definiamo un usability-testing session in cui un ricercatore(chiamato facilitatore o moderatore) chiede ad un partecipante di completare delle attività utilizzando il prodotto o servizio in questione mentre gli altri ricercatori osservano e prendono appunti dai feedback.
 
----------------EURISTIC EVALUATION-----------------
+Valutazione Euristica
+
+Prima di testare con utenti reali, si può fare altro per scoprire i problemi di usabilità. Un metodo usato per valutare le interfacce utente è la valutazione Euristica che si basa su principi stabiliti dell'usabilità. Questa valutazione tipicamente richiede un piccolo team di valutatori, poiché può essere non facile completarla per un singolo individuo e comunque non essere molto preciso. Sebbene la valutazione euristica non fornisca un approccio sistematico per risolvere i problemi di usabilità o valutare le riprogettazioni, può guidare la creazione di progetti rivisti basati sui principi violati di buoni sistemi interattivi in modo efficiente.
+
+I 10 principi di usabilità di Nielsen:
+
+1. Visibilità dello stato del sistema : i designer dovrebbero tenere informati gli utenti su cosa sta succedendo attraverso feedback appropriati entro un tempo ragionevole.
+2. Corrispondenza tra il sistema e il mondo reale : il design dovrebbe parlare il linguaggio degli utenti, con parole, frasi e concetti familiari all'utente, piuttosto che termini orientati al sistema.
+3. Controllo e libertà dell'utente : gli utenti spesso scelgono le funzioni per errore e hanno bisogno di un "uscita di sicurezza" per uscire dallo stato indesiderato senza dover passare attraverso una lunga sequenza di passi.
+4. Consistenza e standard : gli utenti non dovrebbero dover chiedersi se diverse parole, situazioni o azioni significano la stessa cosa, quindi il sistema deve avere una consistenza per tutte le funzioni.
+5. Prevenzione degli errori : meglio che fornire un buon messaggio di errore, è meglio progettare un sistema in modo che gli errori non possano verificarsi in primo luogo.
+6. Riconoscimento anziché ricordo : minmizzare il carico di cose da memorizzare per l'utente, rendendo gli oggetti, azioni e opzioni visibili.
+7. Flessibilità e efficienza di utilizzo : progettare shortcut per gli utenti esperti, consentendo loro di velocizzare le interazioni più frequenti.
+8. Design estetico e minimalista : l'interfacce non dovrebbero contenere informazioni irrilevanti ma solo quelle necessarie, poiché ogni elemento aggiunto aumenta la complessità del sistema.
+9. Aiuto agli utenti a riconoscere, diagnosticare e recuperare gli errori : ogni messaggio di errore dovrebbe essere espresso in un linguaggio chiaro e semplice, indicando il problema e suggerendo una soluzione costruttiva.
+10. Aiuto e documentazione : un buon design non ha bisogno di altre spiegazioni, ma è sempre una buona idea fornire documentazione o aiuto.
+
+Gli elementi per un usability testing
+
+- Facilitatore : guida i partecipanti nella sessione di test, spiega cosa sta succedendo e cosa si aspetta dall'utente, fa domande e prende appunti. Si assicura che i test siano di alta qualità e i dati validi.
+- Tasks : sono attività realistiche che i partecipanti potrebbero fare nella vita reale. Possono essere molto specifici in base alla ricerca che vogliamo fare. Possono essere sia consegnati verbalmente che scritti ma ciò che è importante è la formulazione che deve essere capita dall'utente.
+- Partecipanti : sono le persone che partecipano al test, idealmente dovrebbero essere selezionate a partire dalle personas che abbiaamo creato. Spesso gli viene chiesto dai facilitatori di pensare ad alta voce mentre completano i task in modo da capire quali sono gli step mentali per completare i task.
+
+Ci sono 2 tipi di usability testing in base ai dati che collezzioniamo
+
+- Dati qualitativi : costituiti da risultati osservativi che identificano le caratteristiche del progetto facili o difficili da usare.
+- Dati quantitativi : sotto forma di una o più metriche, indicano se le attività erano facili da eseguire.
+
+I test qualitativi tipicamente comportano la raccolta di dati attraverso domande a risposta aperta, osservazioni e feedback per ottenere informazioni di come gli utenti interagiscono con un prodotto. Spesso il test viene svolto negli stage iniziali del progetto per capire le necessità degli utenti, gli obiettivi e i punti deboli.
+
+I test quantitativi è un metodo di ricerca che prevede la raccolta e analisi di dati numerici per misurare il comportamento e l'atteggiamento degli utenti nei confronti di un prodotto o servizio. In genere comporta la raccolta di dati tramite sondaggi, analisi e test a risposta chiusa. L'obiettivo è quello di dare ai designer dei dati statisticamente significanti che possono essere utilizzati per prendere decisioni. Possono essere utilizzate per valutare le decisioni che sono state prese durante il processo di progettazione.
+
+Entrambi i testing sono importanti metodi nell'UX design e si completano l'un l'altro. I test qualitativi sono utili per capire il perché di un problema, mentre i test quantitativi sono utili per capire quanto è grande il problema.
+
+Per pianificare un usability test abbiamo di:
+
+- Definire gli obiettivi : cosa vogliamo scoprire? quali sono le nostre ipotesi?
+- Definire le modalità : decidere la location, moderarli o meno e se farli di persona o in remoto
+- Decidere numero di partecipanti : quanti partecipanti sono necessari per ottenere risultati significativi? (Nielsen indicava 5 per studi qualitativi e 20 per studi quantitativi)
+- Scegliere i partecipanti giusti : per avere i risultati piu significativi possibili, i partecipanti devono rispettare il target d'utenza del prodotto
+- Studiare i giusti task: i task devono essere realistici e pertinenti per il prodotto. Possono essere a domanda aperta per capire come gli utenti ragionano o specifici per capire se gli utenti riescono a completare un'azione
+- Provare il test : prima di farlo con i partecipanti, è importante provare il test per capire se i task sono chiari e se il test è fattibile
+- Decidere le metriche : i test qualitativi non hanno metriche poiché essendo fatti su poche persone non rappresentano l'intera popolazione mentre i test quantitativi hanno metriche ben definite per misurare l'usabilità.
+- Scrivere il piano : una volta che abbiamo tutte le informazioni, è importante scrivere un documento per comunicare e registrare gli studi. Il documento dovrebbe contenere:
+  
+  - Nome del prodotto
+  - Obiettivi dello studio
+  - Logistica
+  - Profili dei partecipanti
+  - Tasks
+  - Metriche e questionari
+  - Descrizione del sistema  
+- Non fare tutto da solo : gli studi di usabilità possono essere utili a tutti i membri del team di progettazione, quindi è importante coinvolgere tutti i membri del team per avere più punti di vista e più idee.
+
+10 Cose da evitare mentre si testa:
+
+1. Dire agli utenti dove andare
+2. Dire agli utenti cosa fare
+3. Non aggiornare i dati dei task
+4. Fare task troppo semplici
+5. Creare uno scenario troppo elaborato
+6. Scrivere task usando linguaggio di marketing o tecnico
+7. Rischiare reazioni emotive
+8. Cercare di essere divertente
+9. Offendere i partecipanti
+10. Fare altre domande oltre a quelle dei task
 
 ## Domande orale
 
