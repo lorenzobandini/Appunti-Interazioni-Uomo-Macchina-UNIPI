@@ -1,36 +1,52 @@
 # Appunti Interazione Uomo Macchina
 
-## design
+## Design
 
-HMI
+Per design si intende sia il processo di progettazione e pianificazione sia il risultato di questo processo. L’obiettivo principale del design di prodotto non è necessariamente quello di trovare una soluzione al problema specifico ma è piuttosto quella di comprendere il problema stesso nel suo insieme.
+Nel mondo del design il primo passo è sempre quello di capire perché il problema esiste e solo dopo aver appurato che l’origine di un problema non può essere eliminata o mitigata ci si adopera per cercare di risolverlo nello specifico.
+Nel design di prodotto ci si trova infatti spesso costretti a modificare i requirement e le specifiche di prodotto per andare in contro alle esigenze degli utenti e sacrificando funzionalità tecniche e qualità dell’implementazione software. Trovare il corretto bilanciamento fra esperienza utente, funzionalità e qualità tecnica è la parte più complessa dell’intero processo di sviluppo prodotto.
 
-design prodotto
+Il mondo del design è diventato talmente ampio che il termine design da solo ormai non ha quasi più significato. Esistono varie sotto discipline del design e con queste numerose professioni, metodi di lavoro, scuole di pensiero e altrettante immancabili faide e lotte fra fazioni.
+Tra le varie sotto discipline del design troviamo l'interaction design che è l'attività di progettazione dell'interazione che avviene tra esseri umani e oggetti in generale.
+L’obiettivo principale dell’interaction design è quello di rendere macchine, servizi e sistemi usabili dagli utenti per cui sono stati pensati e realizzati e non solamente dai propri creatori. Le forze trainanti lo sviluppo di un prodotto dovrebbero esserre quindi gli utenti reali e i loro bisogni e non solo le tecnologie.
+Ciò che ci interessa quindi è il campo dell'interaizone uomo-macchina e uomo-computer cioè Human-Machine Interaction (HMI) e Human-Computer Interaction (HCI).
+L'interaction design ha a sua volta altre sottodiscipline che spesso si intrecciano tra di loro nei vari settori:
 
-design esperienza
+- Product Design : è un processo strategico di risoluzione dei problemi che guida l'innovazione  eporta a una migliore qualità della vita attraverso prodotti, sistemi, servizi e esperienze innovative. Nel design di prodotto si progettano beni e servizi il cui obiettivo principale è quello di essere utilizzati da quanti più utenti possibili migliorandone la vita
+- User Experience (UX) design : è il processo volto ad aumentare la soddisfazione e la fedeltà degli utenti migliorando l'usabilità, la  facilità d'uso e il piacere fornito nell'interazione tra il cliente e il prodotto. L'UX designer ha il compito di far vivere all'utente la miglior esperienza possibile evitando che l'oggetto induca sensazioni di frustrazione e delusione.
+- User Interface (UI) design : ha come focus il modo in cui le persone interagiscono con la tecnologia, lo scopo è migliorare la loro comprensione di ciò che si può fare, ciò che succede e ciò che è appena successo, basandosi su principi psicologici, tecnici ed estetici. Dallo studio dell'UX si crea uno schema di interazione che poi viene passato allo UI designer che si occupa di creare l'interfaccia grafica che l'utente vedrà e con cui interagirà. UI designer non costruisce l'interfaccia utente ma progetta l'aspetto estetico e la struttura dell'interfaccia così che questa durante l'utilizzo induca l'utente a seguire l'esperienza che è stata progettata per lui. L'UI designer produce un wireframe per implementare la reale interfaccia del prodotto o servizio.
 
-design interfaccia
+Il processo di Product Design è un processo strutturato che include varie figure e discipline. L'interfaccia vera e propria viene implementata solo alla fine del percorso di progettazione da figure con profilo tecnico informatico che comprendo le richieste provenienti dalle fasi precedenti e le implementano in un prodotto finito.
 
-## HCD
+## Human Centered Design
 
-human centered design
+Lo Human Centered Design (HCD) è una metodologia di progettazione che parte dai bisogni, dalle capapcità e dai comportamenti umani, adattando la progettazioni a quei bisogno, quelle capacità e dai comportamenti umani. Lo HCD è un approccio che mette al centro dell'attenzione l'utente e le sue esigenze a differenza di un approccio tecno-centrico che non si concentra a cercare tecnologie che possano risolvere i problemi degli utenti ma cerca problemi da risolvere con nuove tecnologie.
+Per questo lo HCD parte dall'osservazione dell'utente e dai suoi comportamente e solo identifica la tecnologia necessaria. Progettare interfacce che funzionano fintanto che le cose vanno bene è relativamente facile, ma la comunicazione è ancora più importante quando le cose non vanno bene ed è qui che i progettisti devono concentrare la loro attenzione non a non far presentare errori agli utenti, poiché inevitabile, ma progettare un interfaccia che guidi l'utente nella risoluzione in modo che l'utente non si senta frustrato.
+L'obiettivo della forma di pensiero HCD deve dunque essere quello di creare nell'utente empatia verso il sistema.
 
-sviluppo antropocentrico vs sviluppo tecno-centrico
-schema ciclico HCD
+Possiamo schematizzare un processo HCD come un fllusso continuo ed iterativo che attraversa le seguenti fasi:
 
-- specificare il contesto d'uso
-- specificare i requisiti
-- progettare la soluzione
-- testare e valutare
+- Specificare il contesto d'uso : identificare gli utenti che utilizzeranno il prodotto, per cosa lo utilizzeranno e sotto quale condizioni e vincoli
+- Specificare i requisiti : identificare i requisiti e gli obiettivi dell'utente che devono essere raggiunti dal prodotto
+- Progettare la soluzione : realizzare un prodotto finale attraversando varie fasi di bozze e prototipi
+- Testare e valutare : testare il prodotto con gli utenti e valutarne l'efficacia e l'efficienza
 
-usabilità
+In tutto questo è necessario anche considerare l'usabilità cioè il grado in cui un prodotto può essere utilizzato da utenti specifici per raggiungere obiettivi specifici con efficacia, efficienza e soddisfazione in un contesto d'uso specifico ed è imprescendibile.
 
 ## Progettazione delle interfacce
 
-discoverability e understanding
+Il problema è che il buon design non è universale, poiché l'esperienza di interazione è soggettiva e quindi dipende più dalla persona che dal prodotto, ma esistono due proprietà fondamentali che qualsiasi progetto deve avere:
+
+- Discoverability (rilevabilità) : la capacità di un sistema di veicolare e comunicare i propri usi all'utente a prima vista. Per avere una buona discoverability sollitamente si usa la visibilità, cioé se le funzioni dell'oggetto sono visivamente eclatanti è probabile che abbia una buona discoverability
+- Understanding (comprensibilità) : la capacità del prodotto di farsi usare correttamente dall'utente cioé la misura di quanto bene l'utente capisce come usare le funzioni del prodotto.
 
 design of useful things
 
-incidente di three mile island
+Quando le cose vanno bene, si dimenticano subito, quando vanno male non si dimenticano mai
+Questo fenomeno è noto a tutti ed ho dovuto perché ormai viviamo in una società in cui le cose devono andare bene per definizione, mentre se qualcosa va storto scattano una serie di reazioni che portano la persona a provare senzazioni e emozioni spiacevoli. Il design deve quindi preoccuparsi di come funzionano le cose, come vengono controllate e dalla natura delle interazione che questi oggeti e sistemi abilitano con gli utenti. Questo vuol dire che una cattiva esperienza utente induce l'utilizzatore ad abbandonare l'utilizzo del prodotto e etichettare quel prodotto e azienda come negativa e perciò bisogna fare di tutto per evitarlo. Il problema è che le macchine sono concepite, progettate e costruite per funzionare perfettamente ma secondo regole di comportamento rigide a differenza dell'uomo che è aleatorio, versatile, variabile, volubile e intuitivo e data questa differenza bisogna evitare che le macchine obblighino le persone a smettere di comportarsi da umani inducendole a comportarsi da macchine. Quindi quando la macchina fa la cosa sbagliata, tipicamente l'utente si senta incapace e perciò deve essere ribaltata la prospettiva in modo che quando le cose vanno male la colpa non è mai dell'utente ma è sempre della macchina e quindi del progettista, che deve progettare per come le persone sono e non per come vorrebbe che fossero.
+
+L'incidente di three mile island è un eclatante esempio pratico di mal progettazione delle interfacce. Il 28 marzo del 1979 nella contea di Daulphin, in Pennsylvania ci fu il più grave incidente nucleare avvenuto negli Stati Uniti che ha portato al rilascio di piccole quantità di gas radioattivi e di iodio radioattivo nell'ambiente.
+Il reattore era ad un regime di potenza del 97% e il sistema di raffreddamento secondo si era spento portando un considerevole aumento di pressione al circuito primario causando l'apertura di una valvola PORV di rilascio posta sul pressurizzatore e portò allo SCRAM, l'arresto di emergenza mediante l'inserimento delle barre di controllo. A questo punto la valvola di rilascio non si richiuse e gli operatori non si resero conto del problema, poiché non vi era nella strumentazione l'indicazione della reale posizione della valvola. La strumentazione era infatti legata all'alimentazione del motore della valvola e non alla reale posizione della valvola. Fu così che il circuito di raffreddamento primario si vuotò parzialmente e il calore residuo del nocciolo del reattore non potè essere smaltito. Gli operatori non poterono diagnosticare correttamente cosa avveniva e reagire in maniera adeguata. La strumentazione carente della sala controllo e l'addestramento inandeguato risultarono essere le cause principali dell'incidente.
 
 ## Principi fondamentali dell'interazione
 
