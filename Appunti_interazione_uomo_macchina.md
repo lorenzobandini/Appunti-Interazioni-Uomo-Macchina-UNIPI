@@ -1,10 +1,6 @@
-# APPUNTI e DOMANDE d'ESAME - INTERAZIONE UOMO MACCHINA
+# Appunti Interazione Uomo Macchina
 
-***Un prodotto che nessuno compra è un prodotto inutile***
-
-## Appunti
-
-### design
+## design
 
 HMI
 
@@ -14,7 +10,7 @@ design esperienza
 
 design interfaccia
 
-### HCD
+## HCD
 
 human centered design
 
@@ -28,7 +24,7 @@ schema ciclico HCD
 
 usabilità
 
-### Progettazione delle interfacce
+## Progettazione delle interfacce
 
 discoverability e understanding
 
@@ -36,7 +32,7 @@ design of useful things
 
 incidente di three mile island
 
-### Principi fondamentali dell'interazione
+## Principi fondamentali dell'interazione
 
 esperienza
 
@@ -52,7 +48,7 @@ modello concettuale
 
 immagine di sistema
 
-### Vincoli
+## Vincoli
 
 classi di vincoli:
 
@@ -69,7 +65,7 @@ funzioni obbliganti
   
 comandi centrati sulle attività
 
-### Come le persone fanno le cose
+## Come le persone fanno le cose
 
 golfi dell'esecuzione e della valutazione
 
@@ -127,7 +123,7 @@ processing del cervello:
 - livello comportamentale
 - livello riflessivo
 
-### Errore Umano
+## Errore Umano
 
 root cause analysis
 
@@ -170,7 +166,7 @@ mitigazione dell'errore usando metafora formaggio svizzero:
 - diminuire la probabilità di errore (buchi nel formaggio)
 - allertare l'operatore umano quando ci si avvicina a un errore (buchi si sono allineati)
 
-### Le interfacce utente
+## Le interfacce utente
 
 Un interfaccia è qualcosa che sta fra due facce, un punto di contatto tra due sistemi che cercano di comunicare. Le interfacce possono far comunicare due macchine fra loro oppure possono far comunicare l'uomo con la macchina.
 Solitamente è sempre composta da due parti: uno strumento appartenente ad una persona che serve per compiere un'azione e l'intefaccia che è ciò serve per guidare l'utente nell'esecuzione dell'azione.
@@ -207,7 +203,7 @@ Le CUI poi possono essere categorizzate in tre macrocategorie:
 
 Le CUI possono essere categorizzate anche tramite il numero di sensi che utilizzano. Ad esempio, lo Smell-O-Vision è una CUI standard 3S (3 sensi) che utilizza la vista, l'olfatto e l'udito. Se si aggiungesse un quarto senso (come ad esempio le poltronne mobili del cinema) diventerebbe 4S. Quando un interfaccia utente interagisce con tutti i sensi umani viene chiamata Qualia Interface.
 
-### Human Interface Device (HID)
+## Human Interface Device (HID)
 
 Un HID è un tipo di dispositivo informatica spesso usato da umani che consente l'interazione input/output tra umani e computer. Con HID indichiamo sia i device fisici, sia il protocollo USB-HID.
 Gli HID standard sono stati adottati la prima volta principalemente per semplificare il processo di installazione di ogni device. Tutti i dispositivi definiti HID invece inviano pacchetti auto-descrittivi che possono contenere qualsiasi tipo di dato e formato. Un driver HID su computer analizza i dati e consente l'associazione dinamica dell'I/O dei dati con le funzionalità dell'applicazione.
@@ -324,7 +320,7 @@ I dispositivi indossabili sono device che possono essere indossati dall'utente n
 Un dispositivo heart rate monitor permette di misurare il battito cardiaco dell'utente utilizzando dei sensori PPG che tipicamente illuminano la pelle e analizzano la luce riflessa. Invece i sensori ECG usano dei sengali elettrici per misuare l'espanzione e la contrazione del cuore.
 Un dispositivo EEG headset permette di monitorare gli impulsi elettrici del cervello posizioando elettrodi non-invasivi sullo scalpo dell'utente.
 
-### Natural User Interface (NUI)
+## Natural User Interface (NUI)
 
 La NUI è un'interfaccia utente naturale e semplice da usare con interazione diretta e consistente con il comportamento naturale. Una interfaccia utente naturale è una interfaccia che è effettivamente invisibile,e resta invisibile mentre l’utente impara progressivamente ad avere interazioni via via più complesse.
 Ci sono dei gesti di tipo touch che oramai fanno parte del background culturale, come il tocco, la lunga pressione, lo scroll, il pinch e lo swipe. Sono diventati intuitivi per gli utenti poiché le interfacce restituiscono il feedback associato molto velocemente.
@@ -340,7 +336,7 @@ Poichè una NUI sia considerata tale si richiedono:
 una strategia per realizzare NUI è l'uso della Reality User Interface (RUI), anche conosiuta come Reality-Based Interface (RBI). Un esempio di RUI è l'uso di device indossabili per rendere clickabili oggetti del mondo reale.
 Invece un esempio di NUI non basata su RBI è limitare le funzionalità e le personalizzazioni in modo che gli utenti abbiano ben poco da imparare.
 
-### Graphical User Interface (GUI)
+## Graphical User Interface (GUI)
 
 struttura dell'interfaccia
 
@@ -422,7 +418,7 @@ gli elementi dell'interfaccia sono:
 - componenti informativi
 - container
 
-### UX design
+## UX design
 
 identificare le personas mediante:
 
@@ -522,7 +518,7 @@ i passaggi da seguire per la creazione di un caso d'uso sono:
 6. accoppiare punti in comune tra in vari casi d'uso
 7. ripetere per tutte le personas
 
-### Front-end design Wireframing
+## Front-end design Wireframing
 
 wireframe: per trasmettere la tua idea alle altre persone, si creano progetti che aiutano la comuncazione tra designer e sviluppatori attraverso sketch basici che mostrano la struttura generale.
 
@@ -586,7 +582,7 @@ Lo facciamo attraverso gli user flows che sono una rappresentazione visuale di c
 - flowchart è un diagramma di flusso che mostra le varie possibili scelte che un utente può fare e le conseguenze di queste scelte.
 - wireflows esprimono un diagramma di flusso usando wireframe invece di descrizioni astratte
 
-### Metodi e strumenti per l'innovazione
+## Metodi e strumenti per l'innovazione
 
 Un innovazione è qualcosa di originale e utile che entra nel mercato e che cambia il modo in cui le persone vivono e lavorano. Spesso è legata al mondo delle invenzioni ma non necessariamente.
 
@@ -634,7 +630,7 @@ fasi principali:
 Lo Human centered desing è un mindset, un modo di pensare e di approcciarsi allo sviluppo di prodotti, il Design thinking invece è un vero e proprio metodo di lavoro organizzato per fasi che consente di sviluppare prodotti centrati sull'utenze grazie alle tecniche orientate alla stimolazione della creatività e alla produzione di idee.
 Human centered design e Design thinking sono compatibili e combinabili in un metodo detto Social Enterprise Thinking
 
-### Metodi di sviluppo per prodotti innovativi
+## Metodi di sviluppo per prodotti innovativi
 
 agile, scrum e devops
 
@@ -661,7 +657,7 @@ Ci sono 3 ruoli principali in scrum:
 
 modello devops è sottocategoria agile per cloud che ha la necessita di avere una gestione più flessibile, affidabile, sicura e contollabile gestione dei rilasci con cicli di rilascio più brevi e frequenti.
 
-### Prototipazione di interfacce
+## Prototipazione di interfacce
 
 Ogni anno le compagnie lanciano migliaia di nuovi prodotti di tutti i tipi nel mercato, ognuno dei quali seguito da un team che sperano nel suo successo, ma la maggior parte di questi prodotti fallisce, circa l'80% fallisce.
 Come nella legge criminale, una persone è innocente finche non vengono trovate prove a suo carico, un prodotto è un fallimento finche non viene dimostrato il contrario.
@@ -718,7 +714,7 @@ tipi di pretotyping
 
 Dopo aver superato le varie fasi di pretotyping ed aver accumulato una sicurezza sufficiente per il successo del prodotto, lo step successivo è quello di produrre il Minimum Viable Product cioè la versione minimale del prodotto contenente solo ed eslusivamente le features che si sono pretotipate attraverso la fase precedente. Non si hanno le mani sul prodotto definitivo ma su qualcosa di vendibile, in modo da ottenere del ricavo e dell'utile che se sufficiente permetterebbe la produzione del prodotto finale.
 
-### Prototipi e Mock-Ups
+## Prototipi e Mock-Ups
 
 Un mock-up è una rappresentazione con alta fedeltà del prodotto che include la maggior parte dei dettagli visibili e gli elementi di design del wireframe.
 Quindi i mock-ups possono essere usati per rifinire e far notare gli elementi visuali di design ma peccano di funzionalità e perciò non sono adatti a fare testing.
@@ -772,7 +768,7 @@ I prototipi sono quindi usati per fare testing prima di muoversi nella fase fina
 
 Se è clickabile e interattivo oppure risponde alle azioni in altro modo è un prototipo funzionale, altrimenti se ha design, colori e immagini è un mock-up, altrimenti è un semplice wireframe.
 
-### Industria 4.0
+## Industria 4.0
 
 Quando pensiamo al design di un prodotto connesso, cerchiamo di concentrarci sugli elementi più visibili e tangibili, l'industrial design e la user interface.
 Ma ci sono maggiori preoccupazioni che impattano la user experience. Possiamo avere una bellissima interfaccia ma l'utente potrebbe avere comunque una cattiva esperienza.
@@ -810,7 +806,7 @@ nuovi principi del design
 - design per network
 - design per risparmio d'energia
 
-### Usability Testing
+## Usability Testing
 
 Quando abbiamo una sorta di prototipo, dovremmo fare testing con gli utenti. Questo processo ci permette di valutare il prodotto o il servizio tramite il giudizio diretto degli utenti interessati. In questo modo possiamo indivisuare varie problematiche da risolvere, capire cosa migliorare e cosa gli utenti preferiscono.
 
@@ -895,7 +891,7 @@ Per pianificare un usability test abbiamo di:
 9. Offendere i partecipanti
 10. Fare altre domande oltre a quelle dei task
 
-## Domande orale
+## Domande orale Interazione Uomo Macchina
 
 1. differenza tra design thinking e human centered design
 2. esempio di mapping
