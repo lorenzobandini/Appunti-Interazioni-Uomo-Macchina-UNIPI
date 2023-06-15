@@ -257,12 +257,12 @@ livelli di interfacce:
 
 Le interfacce utente tipicamente sono organizzate sulla base dei sensi che utilizzano per stabilire l'interazione tra uomo e macchina:
 
-- tactile UI
-- visual UI
-- auditory UI
-- olfactory UI
-- gustatory UI
-- equilibrial UI
+- Tactile UI
+- Visual UI
+- Auditory UI
+- Olfactory UI
+- Gustatory UI
+- Equilibrial UI
 
 La maggio parte delle interfacce però utilizzano più di un senso per stabilire il collegamento  e vengono chiamate Composer User Interface (CUI). Tra le più note abbiamo:
 
@@ -297,35 +297,35 @@ Il device tipicamente memorizza HID descriptor in ROM così non ha bisogno di ca
 
 HID è stato esteso ad una serie di protocolli:
 
-- bluetooth HID
-- serial HID
+- Bluetooth HID
+- Serial HID
 - ZigBee input device
 - HID over I²C
 - HOGP
   
 Le periferiche HID sono organizzate in 2 categorie:
 
-- di input : basati su sensori che convertonon la realtà fisica in segnali elettrici.
-- di output : basati su attuatori che convertono segnali elettrici in perturbazioni nel mondo reale.
+- Di input : basati su sensori che convertonon la realtà fisica in segnali elettrici.
+- Di output : basati su attuatori che convertono segnali elettrici in perturbazioni nel mondo reale.
 
 Le varie classi di HID sono:
 
-- testi e caratteri
-- posizioni (sistemi di puntamento)
-- suoni
-- immagini
-- parametri ambientali
-- posizione
-- parametri fisiologici e biologici
+- Testi e caratteri
+- Posizioni (sistemi di puntamento)
+- Suoni
+- Immagini
+- Parametri ambientali
+- Posizione
+- Parametri fisiologici e biologici
 
 HID testi e caratteri
 
 Il primo dispositivo HID di testi e caratteri più comune è la tastiera ma sono disponibili più tipi in base ad ogni particolare necessità e variano a seconda della dimensione, dal formato (ANSI o ISO) e del sistema operativo su cui verrano utilizzati.
 I layout da prendere in considerazione sono:
 
-- layout fisico : corrisponde al posizionamento dei tast sulla tastiera
-- layout visuale : corrisponde all'arrangiamento dei simboli che appaiano sui tasti
-- layout funzionale : corrisponde all'associazione tasto-significato all'interno di un software
+- Layout fisico : corrisponde al posizionamento dei tast sulla tastiera
+- Layout visuale : corrisponde all'arrangiamento dei simboli che appaiano sui tasti
+- Layout funzionale : corrisponde all'associazione tasto-significato all'interno di un software
 
 Il layout design più utilizzato dalle popolazioni latine è il QWERTY.
 Esistono inoltre tastiere multifunzione che permettono di estendere le tastiere standard con altri tasti e mappature ma necessitano di driver aggiuntivi per funzionare.
@@ -344,25 +344,25 @@ con a definito come il tempo in secondi necessario per iniziare o smettere di mu
 
 Si danno i seguenti criteri per la classificazione di dispositivi di puntamento:
 
-- sulla base del tipo di input:
-  - diretto : se il puntatore si trova nella stessa posizione fisica dell'utente
-  - indiretto : quando traduce il movimento sullo schermo
-- sulla base del modo in cui il movimento viene mappato sull'interfaccia:
-  - assoluto : quando il mapping tra lo spostamento nel mondo fisico viene replicato così com'è sul dispositivo
-  - altrimenti
-- sulla base di come i dispositivi producano il segnale sulla bse dello spostamento:
-  - isotonico : si può muovere nello spazio e misura lo spostamento
-  - isometrico : è fisso e misura la forza che viene applicata
-  - elastico : la forza applicata è proporizionale allo spostamento
-- sulla base della velocità con cui si fa avanzare il puntatore:
-  - position control : ci controlla la posizione del puntatore
-  - rate control : ci controlla la velocità e direzione del puntatore
+- Sulla base del tipo di input:
+  - Diretto : se il puntatore si trova nella stessa posizione fisica dell'utente
+  - Indiretto : quando traduce il movimento sullo schermo
+- Sulla base del modo in cui il movimento viene mappato sull'interfaccia:
+  - Assoluto : quando il mapping tra lo spostamento nel mondo fisico viene replicato così com'è sul dispositivo
+  - Altrimenti
+- Sulla base di come i dispositivi producano il segnale sulla bse dello spostamento:
+  - Isotonico : si può muovere nello spazio e misura lo spostamento
+  - Isometrico : è fisso e misura la forza che viene applicata
+  - Elastico : la forza applicata è proporizionale allo spostamento
+- Sulla base della velocità con cui si fa avanzare il puntatore:
+  - Position control : ci controlla la posizione del puntatore
+  - Rate control : ci controlla la velocità e direzione del puntatore
 
 I dispositivi di puntamento innovativi sono l'eye tracker che misurano la posizione della pupilla e i movimenti degli occhi. I vari metodi per estrarre informazioni sono:
 
-- bright-pupil : si illumina con luca infrarossa l'occhio e si misura la posizione della pupilla. La luce è coassiale all'occhio in modo che la pupilla rifletta la luca e illumini di rosso l'occhio.
-- dark-pupil : si illumina con luca infrarossa l'occhio e si misura la posizione della pupilla. La luce non è coassiale all'occhio e la pupilla appare nera.
-- passive light : si misura la posizione della pupilla con la luce ambientale
+- Bright-pupil : si illumina con luca infrarossa l'occhio e si misura la posizione della pupilla. La luce è coassiale all'occhio in modo che la pupilla rifletta la luca e illumini di rosso l'occhio.
+- Dark-pupil : si illumina con luca infrarossa l'occhio e si misura la posizione della pupilla. La luce non è coassiale all'occhio e la pupilla appare nera.
+- Passive light : si misura la posizione della pupilla con la luce ambientale
 Tutto ciò è differente dal gaze tracking che si occupa di capire dove il soccetto stia guardando riportando l'angolo della pupilla nello spazio tridimensionale in cui si trova l'utente. Ma per rendere l'eye tracking un sistema di puntamento va affiancato con il gaze tracking.
 I dispositivi dataglove sono dei guanti che permettono di rilevare i movimenti delle mani e delle dita.
 I dispositivi aptici sono dispositivi che permettono agli utenti di interagire con ambienti virtuali tramite feedback tattili.
@@ -379,14 +379,14 @@ I sensori di immagini sono sensori che rilevano attraverso le radiazione luminos
 Il 3D scanner consiste nel rappresentare dimensione e posizione nello spazio tridimensionale di oggetti e ambienti. I 3D scanner sono divisi in due categorie:
 
 - Passivi : non emettono radiazioni elettromagnetiche, si affidano all'illumazione ambientale. Alcuni esempi:
-  - camere stereoscopiche : usano due camere poste ad una distanza focale simile a quella dell'occhio umano e, calcolando la differenza nelle immagini pixel per pixel, creano una terza immagine detta depthmap per creare l'illusione di profondità
-  - sistemi fotometrici : assumono l’esistenza di una sorgente luminosa controllabile e analizzando gli spostamenti delle ombre al variare dell’incidenza (della sorgente luminosa) vengono calcolati sia la profondità sia il colore.
-  - tecniche silhouette :  tipicamente messe a disposizione anche da applicazioni per dispositivi mobili, scattando più foto dello stesso oggetto da diversi angoli e usando l’accelerometro e la piattaforma iniziale posizionano i piani immagini nello spazio tridimensionale e ricostruiscon l’oggetto.
+  - Camere stereoscopiche : usano due camere poste ad una distanza focale simile a quella dell'occhio umano e, calcolando la differenza nelle immagini pixel per pixel, creano una terza immagine detta depthmap per creare l'illusione di profondità
+  - Sistemi fotometrici : assumono l’esistenza di una sorgente luminosa controllabile e analizzando gli spostamenti delle ombre al variare dell’incidenza (della sorgente luminosa) vengono calcolati sia la profondità sia il colore.
+  - Tecniche silhouette :  tipicamente messe a disposizione anche da applicazioni per dispositivi mobili, scattando più foto dello stesso oggetto da diversi angoli e usando l’accelerometro e la piattaforma iniziale posizionano i piani immagini nello spazio tridimensionale e ricostruiscon l’oggetto.
 - Attivi : emettono radiazioni elettromagnetiche, tipicamente luci, ultrasuoni o raggi x. Alcuni esempi:
-  - time-of-flight : inviano un impulso laser e misurano il tempo di ritorno
-  - triangolazione : inviano un impulso laser, usando l'angolo di riflessione e il disallineamento ottico tra emettitore e ricevitore, permettono di ricostruire la distanza punto-punto.
-  - scanner a luce strutturata : viene proiettata un'immagine geometrica nota su un oggetto tridimensionale e vengono analizzate le deformazioni
-  - scanner a luce modulata : viene proiettata una luce modulata su un oggetto tridimensionale e vengono analizzate le deformazioni
+  - Time-of-flight : inviano un impulso laser e misurano il tempo di ritorno
+  - Triangolazione : inviano un impulso laser, usando l'angolo di riflessione e il disallineamento ottico tra emettitore e ricevitore, permettono di ricostruire la distanza punto-punto.
+  - Scanner a luce strutturata : viene proiettata un'immagine geometrica nota su un oggetto tridimensionale e vengono analizzate le deformazioni
+  - Scanner a luce modulata : viene proiettata una luce modulata su un oggetto tridimensionale e vengono analizzate le deformazioni
 
 Un Inertial Measurement Unit (IMU) è un dispositivo elettronico che misura e reporta l'accelerazione, la velocità angolare e l'orientamento di un corpo rigido. Un IMU è composto da un accelerometro, un giroscopio e a volte un magnetometro.
 
@@ -402,10 +402,10 @@ La parola “naturale” viene usata in riferimento al goal di progettazione del
 
 Poichè una NUI sia considerata tale si richiedono:
 
-- apprendimento progressivo
-- expertise instantanea
-- interazione diretta
-- basso carico cognitivo
+- Apprendimento progressivo
+- Expertise instantanea
+- Interazione diretta
+- Basso carico cognitivo
 
 una strategia per realizzare NUI è l'uso della Reality User Interface (RUI), anche conosiuta come Reality-Based Interface (RBI). Un esempio di RUI è l'uso di device indossabili per rendere clickabili oggetti del mondo reale.
 Invece un esempio di NUI non basata su RBI è limitare le funzionalità e le personalizzazioni in modo che gli utenti abbiano ben poco da imparare.
@@ -414,31 +414,31 @@ Invece un esempio di NUI non basata su RBI è limitare le funzionalità e le per
 
 struttura dell'interfaccia
 
-- struttura gerarchica
-- struttura sequenziale
-- struttura matriciale
-- struttura a database
+- Struttura gerarchica
+- Struttura sequenziale
+- Struttura matriciale
+- Struttura a database
 
 architettura dell'informazione e natura degli utenti, contenuti e contesti
 
 componenti principali:
 
-- schemi o strutture organizzative
-- sistemi di labelling
-- sistemi di navigazione
-- sistemi di ricerca
+- Schemi o strutture organizzative
+- Sistemi di labelling
+- Sistemi di navigazione
+- Sistemi di ricerca
 
 tipi di schemi organizzativi:
 
-- esatti
-  - schema alfabetico
-  - schema cronologico
-  - schema geografico  
-- soggettivi
-  - topic scheme
-  - task scheme
-  - audience scheme
-  - metaphoric scheme
+- Esatti
+  - Schema alfabetico
+  - Schema cronologico
+  - Schema geografico  
+- Soggettivi
+  - Topic scheme
+  - Task scheme
+  - Audience scheme
+  - Metaphoric scheme
 
 creare ibridi di schemi organizzativi
 
@@ -446,82 +446,82 @@ navigazione nelle interfacce, principi base di findability e discoverability
 
 modelli di comportamento degli utenti per la ricerca di informazioni:
 
-- quit
-- narrow
-- expand
-- pearl growing
-- pogosticking
-- trashing
-- berry picking
+- Quit
+- Narrow
+- Expand
+- Pearl growing
+- Pogosticking
+- Trashing
+- Berry picking
 
 antipattern
 
 design pattern:
 
-- autocomplete
-- autosuggest
-- instat result
-- did you mean
-- autocorrect
-- best first
-- partial matches
-- related seraches
-- federated search
-- faceted navigation
-- advanced search
-- scoped search
-- personalization
-- pagination
-- actionable result
-- comparing result
-- unfied discovery
+- Autocomplete
+- Autosuggest
+- Instat result
+- Did you mean
+- Autocorrect
+- Best first
+- Partial matches
+- Related seraches
+- Federated search
+- Faceted navigation
+- Advanced search
+- Scoped search
+- Personalization
+- Pagination
+- Actionable result
+- Comparing result
+- Unfied discovery
 
 layout di interfacce e componenti
 Document Object Model (DOM): cross-platform e interfaccia language-independent che permette ai programmi e agli script di accedere e aggiornare il contenuto, la struttura e lo stile dei documenti. Rappresenta il documento come un albero di nodi.
 Quando una pagina web JavaScript è caricata, viene creato un Document Object Model (DOM) della pagina che è una rappresentazione object oriented del documento HTML che si interfaccia tra JavaScript e il documento dando la possibilità di:
 
-- aggiungere, cambiare e rimuovere elementi HTML
-- cambiare stili CSS
-- reagire agli eventi
-- creare nuovi eventi
+- Aggiungere, cambiare e rimuovere elementi HTML
+- Cambiare stili CSS
+- Reagire agli eventi
+- Creare nuovi eventi
 
 gli elementi dell'interfaccia sono:
 
-- elementi di input
-- elementi di navigazione
-- componenti informativi
-- container
+- Elementi di input
+- Elementi di navigazione
+- Componenti informativi
+- Container
 
 ## UX design
 
 identificare le personas mediante:
 
-- task analysis
-- feedback
-- prototipazione
+- Task analysis
+- Feedback
+- Prototipazione
 
 dipendentemente dai dati che abbiamo possiamo avere 3 tipi di personas:
 
-- proto-personas
-- qualitative personas
-- statistical personas
+- Proto-personas
+- Qualitative personas
+- Statistical personas
 
 principio di Pareto
 
 tipi di informazioni di una personas:
 
-- demografiche
-- personali
-- attitudinali e cognitivi
-- obiettivi e motivazioni
-- comportamentali
+- Demografiche
+- Personali
+- Attitudinali e cognitivi
+- Obiettivi e motivazioni
+- Comportamentali
 
 personas e archetipi
 
 requirements
 
-- funzionali
-- non funzionali
+- Funzionali
+- Non funzionali
 
 user stories
 
@@ -538,21 +538,21 @@ uno scenario è una situazione che cattura come gli utenti interagiscono con un 
 
 un buon scenario deve rispondere:
 
-- chi è l'utente?
-- motivazione e aspettativa dal prodotto?
-- qual'è il suo obiettivo?
+- Chi è l'utente?
+- Motivazione e aspettativa dal prodotto?
+- Qual'è il suo obiettivo?
 
 grazie agli scenarios possiamo determinare:
 
-- i punti importanti durante progettazione per l'UX
-- fasi del processo che richiedono ulteriore revisione e attenzione
-- le principali esigenze e motivazioni dell'utente
+- I punti importanti durante progettazione per l'UX
+- Fasi del processo che richiedono ulteriore revisione e attenzione
+- Le principali esigenze e motivazioni dell'utente
   
 modi per scrivere scenarios:
 
-- goal o task orinentati agli scenarios
-- elaborated scenarios
-- full scale task scenarios
+- Goal o task orinentati agli scenarios
+- Elaborated scenarios
+- Full scale task scenarios
 
 casi d'uso
 
@@ -568,29 +568,29 @@ la differenza principale è la prospettiva.
 
 includono:
 
-- l'utente
-- cosa vuole fare
-- il suo scopo
-- step necessari per raggiungere lo scopo
-- feedback
-- trigger
-- basic flow
-- alternative flow
+- L'utente
+- Cosa vuole fare
+- Il suo scopo
+- Step necessari per raggiungere lo scopo
+- Feedback
+- Trigger
+- Basic flow
+- Alternative flow
   
 non includono:
 
-- dettagli implementativi o di scelta tecnologica
-- dettagli di UI
+- Dettagli implementativi o di scelta tecnologica
+- Dettagli di UI
 
 i passaggi da seguire per la creazione di un caso d'uso sono:
 
-1. identificare le personas
-2. sceglierne una per caso d'uso
-3. identificare il suo scopo
-4. discenderne i task principali da quelli secondari
-5. considerare le sequenze alternative
-6. accoppiare punti in comune tra in vari casi d'uso
-7. ripetere per tutte le personas
+1. Identificare le personas
+2. Sceglierne una per caso d'uso
+3. Identificare il suo scopo
+4. Discenderne i task principali da quelli secondari
+5. Considerare le sequenze alternative
+6. Accoppiare punti in comune tra in vari casi d'uso
+7. Ripetere per tutte le personas
 
 ## Front-end design Wireframing
 
@@ -598,34 +598,34 @@ wireframe: per trasmettere la tua idea alle altre persone, si creano progetti ch
 
 tipi di wireframe:
 
-- low fidelity: semplici sketch che si concentrano sulla struttura
-- high fidelity: rappresentazioni dettagliate con una basica interfaccia e icone.
+- Low fidelity: semplici sketch che si concentrano sulla struttura
+- High fidelity: rappresentazioni dettagliate con una basica interfaccia e icone.
 
 contesto ha un importante ruolo nell'UX design per adattarci ai comportamenti e alle preferenze degli utenti.
 
 adattibilità è la capacità di un sistema di adattarsi a diversi contesti senza cambiare la sua struttura e copre le nozioni di:
 
-- responsive design
-- accessibilità
+- Responsive design
+- Accessibilità
 
 il responsive design è un approccio di progettazione che permette ai siti web di adattarsi a diversi dispositivi e dimensioni dello schermo per avere una buona esperienza coerente con tuti i dispositivi.
 
 tecniche di responsive design:
 
-- flexible grid
-- flexible images
-- media queries & breakpoints
+- Flexible grid
+- Flexible images
+- Media queries & breakpoints
 
 una filosofia di reposive design è mobile first che consiste nel progettare prima per i dispositivi mobili e poi per i desktop e ciò ci fa concentrare prima sulle funzionalità base.
 Ciò si oppone alla degradazione in cui si sviluppa prima per i desktop per poi rimuovere alcune funzionalità per adattarsi ai dispositivi mobili perdendo però consistenza dei vari dispositivi.
 
 altre best practise del responsive design:
 
-- keep it simple : design minimal
-- priorizzare il contenuto
-- progettare per il touch : bottoni grandi
-- ottimizzare tempi di caricamento : ridurre componenti pesanti come immagini
-- testare su diversi dispositivi
+- Keep it simple : design minimal
+- Priorizzare il contenuto
+- Progettare per il touch : bottoni grandi
+- Ottimizzare tempi di caricamento : ridurre componenti pesanti come immagini
+- Testare su diversi dispositivi
 
 Adaptive design è un altra alternativa al responsive design che consiste nel creare un interfaccia che si adatta automaticamente ai vari utenti in modo fluido e flessibile.
 Solitamente realizzata creando più versioni del sito web per ogni dispositivo.
@@ -635,26 +635,26 @@ Adaptive UX ottiene informazione basiche tra i vari utenti e le usa per adattare
 Nell UX design è cruciale anche l'accessibilità che consiste nel rendere il prodotto accessibile a tutti gli utenti indipendentemente dalle loro capacità fisiche o cognitive in modo che ogni utente possa accedere a tutte le funzionalità del prodotto.
 Alcuni problemi di accessibilità sono:
 
-- visuale
-- motoria
-- uditiva
-- convulsioni
-- cognitive
+- Visuale
+- Motoria
+- Uditiva
+- Convulsioni
+- Cognitive
 
 L'azienda W3C ha posto degli standard e delel linee guida per l'accssibilità chiamate Web Content Accessibility Guidelines (WCAG) e consigliano:
 
-- alternative testuali per contenuti non testuali come immagini e grafici
-- sottotioli o altre alternative per contenuti multimediali
-- diversi modi per usufruire dei contentuti
-- contenuti facili da vedere e da ascoltare
-- utenti possono usare altre modalità di input oltre la tastiera
-- struttura facile da navigare e da capire
+- Alternative testuali per contenuti non testuali come immagini e grafici
+- Sottotioli o altre alternative per contenuti multimediali
+- Diversi modi per usufruire dei contentuti
+- Contenuti facili da vedere e da ascoltare
+- Utenti possono usare altre modalità di input oltre la tastiera
+- Struttura facile da navigare e da capire
 
 Oltre ai wireframes che ci aiutano a comunicare le nostre idee, abbiamo bisogno di uno schema di navigazione che ci aiuti a capire come gli utenti possono navigare nel nostro sito web.
 Lo facciamo attraverso gli user flows che sono una rappresentazione visuale di come gli utenti possono navigare nel nostro sito web. I più comuni sono:
 
-- flowchart è un diagramma di flusso che mostra le varie possibili scelte che un utente può fare e le conseguenze di queste scelte.
-- wireflows esprimono un diagramma di flusso usando wireframe invece di descrizioni astratte
+- Flowchart è un diagramma di flusso che mostra le varie possibili scelte che un utente può fare e le conseguenze di queste scelte.
+- Wireflows esprimono un diagramma di flusso usando wireframe invece di descrizioni astratte
 
 ## Metodi e strumenti per l'innovazione
 
@@ -662,13 +662,13 @@ Un innovazione è qualcosa di originale e utile che entra nel mercato e che camb
 
 sustaining innovation cioè migliorare un prodotto esistente:
 
-- step by step
-- basso rischio
-- bassa velocità
-- non cambia organizzazione aziendale
-- non ha bisogno di nuove competenze da parte degli utenti
-- basse probabilità di scalare il mercato
-- target di mercato stabile
+- Step by step
+- Basso rischio
+- Bassa velocità
+- Non cambia organizzazione aziendale
+- Non ha bisogno di nuove competenze da parte degli utenti
+- Basse probabilità di scalare il mercato
+- Target di mercato stabile
 
 disruptive innovation, usato per creare nuovi mercati cerca di non basarsi sulle tecnologie esistenti per raggiungere utenti che non sono serviti dai prodotti esistenti
 
@@ -678,9 +678,9 @@ Il product management si occupa del cosa mantre il product development si occupa
 
 Ideo ha sviluppato un processo di innovazione human centered che si basa su 3 fasi:
 
-1. ispirazione : approfondisce i bisogni e le richieste degli utenti per migliorare uno strumento, osservando come viene usato.
-2. ideazione : si cerca di interpretare le conoscenze assunte per arrivare a qualcosa di più tangibile tramite la creazione di un semplice prototipo. non definitivo e neacnhe perfetto ma utile come punto di partenza per continuare a testare e fare considerazioni.
-3. implementazione : si cerca di capire come il prodotto può essere implementato nel mondo reale e come può essere scalato.
+1. Ispirazione : approfondisce i bisogni e le richieste degli utenti per migliorare uno strumento, osservando come viene usato.
+2. Ideazione : si cerca di interpretare le conoscenze assunte per arrivare a qualcosa di più tangibile tramite la creazione di un semplice prototipo. non definitivo e neacnhe perfetto ma utile come punto di partenza per continuare a testare e fare considerazioni.
+3. Implementazione : si cerca di capire come il prodotto può essere implementato nel mondo reale e come può essere scalato.
 
 Ciascuna di queste fase è svolta dal team con un approccio a fisarmonica, seguendo uno schema detto "Double Diamond" in cui all'inizio si lavora per produrre idee e soluzioni in quantità (divergenza) per poi concentrarsi su quelle più promettenti (convergenza).
 
@@ -689,17 +689,17 @@ Si basa su un processo iterativo che cerca di capire l'utente facendo delle assu
 
 obiettivi:
 
-- avvicinarsi al cliente
-- favorire la creatività e generare idee
-- sperimenare le idee con prototipi
+- Avvicinarsi al cliente
+- Favorire la creatività e generare idee
+- Sperimenare le idee con prototipi
 
 fasi principali:
 
-1. empatizzare : identificare il problema e l'obiettivo, scrivendo le personas
-2. definire : delineare i bisogni degli utenti e le varie categorie di utenti, facendo user stories
-3. ideare : ricercare una soluzione al problema, facendo brainstorming
-4. prototipare : realizzare i primi prototipi
-5. testare : testare i prototipi sul campo e raccogliere feedback dagli utenti
+1. Empatizzare : identificare il problema e l'obiettivo, scrivendo le personas
+2. Definire : delineare i bisogni degli utenti e le varie categorie di utenti, facendo user stories
+3. Ideare : ricercare una soluzione al problema, facendo brainstorming
+4. Prototipare : realizzare i primi prototipi
+5. Testare : testare i prototipi sul campo e raccogliere feedback dagli utenti
 
 Lo Human centered desing è un mindset, un modo di pensare e di approcciarsi allo sviluppo di prodotti, il Design thinking invece è un vero e proprio metodo di lavoro organizzato per fasi che consente di sviluppare prodotti centrati sull'utenze grazie alle tecniche orientate alla stimolazione della creatività e alla produzione di idee.
 Human centered design e Design thinking sono compatibili e combinabili in un metodo detto Social Enterprise Thinking
@@ -710,11 +710,11 @@ agile, scrum e devops
 
 modello waterfall è un metodologia lineare per lo sviluppo di progetti in cui ogni fase ricasca sulla successiva ed è strutturato in 5 parti:
 
-1. analisi dei requisiti
-2. progettazione
-3. svilluppo
-4. collaudo
-5. manutenzione
+1. Analisi dei requisiti
+2. Progettazione
+3. Svilluppo
+4. Collaudo
+5. Manutenzione
 
 Il modello agile è un metodo di sviluppo software che si basa sul creare e rispondere al cambiamento e pone le fondamenta sui 12 principi del manifesto per sviluppo software agile
 Una cosa che contraddistingue agile è il fatto di concentrarsi sulle persone che fanno il loro lavoro e come lavorano insieme.
@@ -725,9 +725,9 @@ Il modello è particolarmenete utile per progetti complessi e con un piccolo num
 Ogni sprint inizia con una pianificazione degli eventi e stabilendo gli obiettivi e termina con una revisione di ciò che è stato fatto nel periodo prestabilito, adattando il prossimo sprint in base ai risultati ottenuti.
 Ci sono 3 ruoli principali in scrum:
 
-- product owner : responsabile del prodotto e del suo sviluppo
-- scrum master : responsabile del processo e del team
-- team : responsabile dello sviluppo del prodotto
+- Product owner : responsabile del prodotto e del suo sviluppo
+- Scrum master : responsabile del processo e del team
+- Team : responsabile dello sviluppo del prodotto
 
 modello devops è sottocategoria agile per cloud che ha la necessita di avere una gestione più flessibile, affidabile, sicura e contollabile gestione dei rilasci con cicli di rilascio più brevi e frequenti.
 
@@ -754,37 +754,37 @@ Un pretotipo è un mock-up di un prodotto o servizio che può essere costruito i
 
 obiettivi del pretotyping sono aiutare a:
 
-- identificare funzionalià chiave
-- decidere le funzionalità da implemtare nel mockup
-- test sui mockup e collezione dei feedback e dati
-- analisi dei dati e determinare il prossimo passo
+- Identificare funzionalià chiave
+- Decidere le funzionalità da implemtare nel mockup
+- Test sui mockup e collezione dei feedback e dati
+- Analisi dei dati e determinare il prossimo passo
 
 i 7 pilasti del pretotyping:
 
-- obbedire alla legge del fallimento del mercato
-- assicurarsi di star costruendo il prodotto giusto
-- non perdersi in chiacchere, idee o opinioni
-- fidarsi solo dei propri dati
-- fare pretotyping
-- parlare con i numeri e con i fatti
-- pensa globalmente, testa localmente
+- Obbedire alla legge del fallimento del mercato
+- Assicurarsi di star costruendo il prodotto giusto
+- Non perdersi in chiacchere, idee o opinioni
+- Fidarsi solo dei propri dati
+- Fare pretotyping
+- Parlare con i numeri e con i fatti
+- Pensa globalmente, testa localmente
 
 Flusso del pretotyping
 
-1. isolare l'assunzione chiave : qual è l'assunzione o funzionalià chiave che se non funziona il prodotto fallisce?
-2. scegliere un tipo di pretotype : qual è il tipo di pretotyping che permette
-3. fare ipotesi di mercato (ipotesi XYZ)
-4. testare il pretotype : mettere il pretotipo nel mondo reale e vedere quante persone sono interessate e quante ci interagiscono
-5. imparare, rifinire, hyperzoom : valutare i risultati, rifinire il pretotipo con i nuovi dati e se l'ipotesi ha retto decidere altre situazioni in cui testare il pretotipo per avere una visione completa.
+1. Isolare l'assunzione chiave : qual è l'assunzione o funzionalià chiave che se non funziona il prodotto fallisce?
+2. Scegliere un tipo di pretotype : qual è il tipo di pretotyping che permette
+3. Fare ipotesi di mercato (ipotesi XYZ)
+4. Testare il pretotype : mettere il pretotipo nel mondo reale e vedere quante persone sono interessate e quante ci interagiscono
+5. Imparare, rifinire, hyperzoom : valutare i risultati, rifinire il pretotipo con i nuovi dati e se l'ipotesi ha retto decidere altre situazioni in cui testare il pretotipo per avere una visione completa.
 
 tipi di pretotyping
 
-- fake door : un marketing entry point per un prodotto che non esiste ancora e può essere utliizzato per pubblicizzare un servizio non ancora pronto e misurare l'interesse degli utenti. Serve per capire se l'oggetto che si vuole sviluppare può avere successo e risparmiare tempo e denaro. Si può utilizzare questo pretotyping qunado l'idea può essere descritta in poche e semplici parole, senza possedere nulla di fisico.
-- mechanical turk : un servizio che permette di simulare e trasmettere l'esperienza del prodotto finale ad un utente senza che esso sia sviluppato per mostrare la reale esperienza che l'utente avrà con il prodotto.
-- impersonator : è un pretotipo che riesce a far sperimentare un'esperienza all'utente in modo estremamente economico e con lavoro minimo dietro.
-- pinocchio : è un pretotipo chiaramente falso che serve per veicolare un messagio così distante dalla realtà che è faticoso e difficile da spiegare in altri linguaggi naturali, usato spesso per testare l'interesse e il possibile uso di prodotti innovativi non ancora lanciati da nessuno, nemmeno in maniera simile, su mercato.
-- one night stand : una tecnica di veicolazione di un pretotipo che consiste in un market test che offre solo l'esperienza senza alcun altro tipo di infrastruttura
-- facade : è un impersonator ma è usato per dare un'immagine dell'azienda e non del prodotto stesso e viene spesso usato per promuovere servizi.
+- Fake door : un marketing entry point per un prodotto che non esiste ancora e può essere utliizzato per pubblicizzare un servizio non ancora pronto e misurare l'interesse degli utenti. Serve per capire se l'oggetto che si vuole sviluppare può avere successo e risparmiare tempo e denaro. Si può utilizzare questo pretotyping qunado l'idea può essere descritta in poche e semplici parole, senza possedere nulla di fisico.
+- Mechanical turk : un servizio che permette di simulare e trasmettere l'esperienza del prodotto finale ad un utente senza che esso sia sviluppato per mostrare la reale esperienza che l'utente avrà con il prodotto.
+- Impersonator : è un pretotipo che riesce a far sperimentare un'esperienza all'utente in modo estremamente economico e con lavoro minimo dietro.
+- Pinocchio : è un pretotipo chiaramente falso che serve per veicolare un messagio così distante dalla realtà che è faticoso e difficile da spiegare in altri linguaggi naturali, usato spesso per testare l'interesse e il possibile uso di prodotti innovativi non ancora lanciati da nessuno, nemmeno in maniera simile, su mercato.
+- One night stand : una tecnica di veicolazione di un pretotipo che consiste in un market test che offre solo l'esperienza senza alcun altro tipo di infrastruttura
+- Facade : è un impersonator ma è usato per dare un'immagine dell'azienda e non del prodotto stesso e viene spesso usato per promuovere servizi.
 
 Dopo aver superato le varie fasi di pretotyping ed aver accumulato una sicurezza sufficiente per il successo del prodotto, lo step successivo è quello di produrre il Minimum Viable Product cioè la versione minimale del prodotto contenente solo ed eslusivamente le features che si sono pretotipate attraverso la fase precedente. Non si hanno le mani sul prodotto definitivo ma su qualcosa di vendibile, in modo da ottenere del ricavo e dell'utile che se sufficiente permetterebbe la produzione del prodotto finale.
 
@@ -816,9 +816,9 @@ Dimensioni di fideltà di un prototipo:
 - Realismo : quanto il prototipo è simile al prodotto finale
 - Scope : ampiezza e profondità del prototipo
 - Funzionalità : quali e come le funzionalità sono implementate
-- dati : se il prototipo funziona su dati reali o simulati
-- autonomia : come il prototipo può operare senza il bisogno dell'utente
-- piattaforma : se il prototipo è un implementazione provvisoria o definitiva
+- Dati : se il prototipo funziona su dati reali o simulati
+- Autonomia : come il prototipo può operare senza il bisogno dell'utente
+- Piattaforma : se il prototipo è un implementazione provvisoria o definitiva
 
 In particolare lo scope ti da informazioni su quanto buono potrà essere il prototipo. Esistono due tipi di scope:
 
@@ -874,11 +874,11 @@ La loro UI non è semplicemente a livello software ma spesso è estesa con scher
 nuovi principi del design
 
 - UX per IoT
-- device specializzati con differenti capacità
-- far interagire i dispositivi tra loro
-- controllo remoto
-- design per network
-- design per risparmio d'energia
+- Device specializzati con differenti capacità
+- Far interagire i dispositivi tra loro
+- Controllo remoto
+- Design per network
+- Design per risparmio d'energia
 
 ## Usability Testing
 
@@ -886,11 +886,11 @@ Quando abbiamo una sorta di prototipo, dovremmo fare testing con gli utenti. Que
 
 L'usabilità è un attributo qualitativo che ci indica quanto è facile l'interfaccia utente da usare, ed è definita in 5 componenti:
 
-- apprendibilità : quanto è facile per gil utenti completare compiti basilari la prima volta che usano l'interfaccia
-- efficienza : velocità con cui gli utenti completano compiti dopo che hanno imparato l'interfaccia
-- memorabilità : quanto è facile per gli utenti riprendere a usare l'interfaccia dopo un periodo di non utilizzo
-- errori : quanti errori fanno gli utenti, quanto gravi sono e come possono recuperare
-- soddisfazione : quanto piace agli utenti usare l'interfaccia
+- Apprendibilità : quanto è facile per gil utenti completare compiti basilari la prima volta che usano l'interfaccia
+- Efficienza : velocità con cui gli utenti completano compiti dopo che hanno imparato l'interfaccia
+- Memorabilità : quanto è facile per gli utenti riprendere a usare l'interfaccia dopo un periodo di non utilizzo
+- Errori : quanti errori fanno gli utenti, quanto gravi sono e come possono recuperare
+- Soddisfazione : quanto piace agli utenti usare l'interfaccia
 
 Nell'UX design, un altro concetto chiave è l'utility che si riferisce alle funzionalità e alle caratteristiche di un prodotto o servizio che soddisfano i bisogni degli utenti.
 
