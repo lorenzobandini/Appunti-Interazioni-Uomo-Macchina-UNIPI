@@ -48,36 +48,50 @@ Il reattore era ad un regime di potenza del 97% e il sistema di raffreddamento s
 
 ## Principi fondamentali dell'interazione
 
-esperienza
+Un buon design produce un'esperienza piacevole, e ciò è necessario perché grazie all'esperienza di crea un bel ricordo mentre quando la tecnologia si comporta in maniera inaspettata si provano emozioni negative. Un utente che comprende il corretto funzionamento di un prodotto e si sente padrone sarà soddisfatto e orgoglioso. Cognizione ed emozione sono profondamente legate. La visibilità o discoverability di un prodotto è fondamentale per suscitare queste emozioni ed è il risultato di 5 concetty psicologici fondamentali: affordance, singnificanti, mapping, feedback e vincoli. C’è poi un sesto principio che come vedremo non è legato a degli elementi specifici dell’interfaccia ma piuttosto al concetto generale su cui si va a basare il funzionamento del sistema, il modello concettuale del sistema
 
-affordance
+Il termine affordance, che vuol dire invito, indica la relazione tra le proprietà di un oggetto e le capacitò dell'agente che determina come l'oggetto possa essere utilizzato. Le affordance non sono quindi proprietà oggettive di un sistema o prodotto ma piuttosto relazioni prodotto-utente che se stabilite abilitano o disabilitano specifiche modalità di interazione fra le parti, ad esempio una sedia sembra fatta apposta per sostenere qualcosa e invita alla seduta. Oltre all'affordance esiste l'anti-affordancec che invece nega alcuni modi di interagire con l'oggetto, ad esempio degli spunzoni negano che un utente ci si sieda sopra.
+Le affordance e le anti-affordance per abilitare o disabilitare una particolare modalità di interazione fra oggetto ed utente devono essere percepibili, discoverable.
 
-significanti
+Per dare visibilità ad un'affordance si usano i significanti, che sono un modo per indicare dove effettuare un'azione. Molto spesso i significanti sono indispensabili poiché la maggior parte delle affordance sono invisibili. Possono essere:
 
-mapping
+- Voluti o intenzionali : come un'etichetta o un'icona
+- Accidentali o non intenzionali : come un sentiero tracciato oppure delle persone in fila
 
-feedback
+Nel design i significanti sono molto più importanti delle affordances, perché comunicano come usare il prodotto o l'interfaccia e per associare un affordance ad un azione, nella maggior parte dei casi, si usano le convenzioni culturali.
 
-modello concettuale
+Il mapping è un termine tecnico, ripreso dalla matematica, che indica la relazione fra gli elementi di due insiemi. Il concetto di mapping è di grande importanza nella programmazione di interfacce, in particolare nel posizionamento dei significanti. La disposizione di significanti può comunicare sull'interfaccia e le sue funzionalità, soprattutto se si sfrutta una corrispondenza spaziale fra la collocazione dei comandi e quella dei dispositivi comandati. Il modo migliore per fare mapping è quello naturale con forme e colori in modo da facilitare le associazioni nel nostro cervello.
 
-immagine di sistema
+Il feedback è la comunicazione del risultato di un'azione che l'interfaccia da all'utente come risposta. È necessario che sia immediato poiché un ritardo potrebbe far rinunciare l'utente a svolgere l'attività e deve essere informativo, non portando con sè troppe informazioni ma deve far capire che è stato prodotto il risultato che ci si aspetta. Una caratteristica importante è la semplicità e essenziale, evitando troppi annunci che non siano veramente importanti perché potrebbe portare l'utente a non leggerli.
+
+Un modello concettuale è una descrizione altamente semplificata delle funzionalità di un sistema che non punta a essere completa o accurata ma utile. I modelli semplificati sono preziosi e utili fintanto le ipotesi che li supportano sono vere. Il modello concettuale esprime come il designer vuole che l'utente percepisca il prodotto e serve per poi progettare un'interfaccia in modo che l'utente possa capire come funziona il sistema attraverso affordances, significanti e mapping.
+Un modello mentale è un modello concettuale nella mente dell'utente che rappresenta il modo in cui secondo lui funzionano le cose, ed è soggettivo e diverso da utente ad utente. Più è grande la differenza tra modello mentale e quello concettuale e più l'utente farà fatica ad usare il sistema.
+L’ideale è che l’utente apprenda un modello concettuale giusto direttamente dal device che utilizza, senza andare a leggere manuali o istruzioni o, peggio ancora, che gli venga trasmesso da terzi.
+
+L'insieme di tutta l'informazione accessibile, come l'aspetto dell'apparecchio, cosa hanno imparato da oggetti simili in passato, il sito web e il libretto di istruzione, costruiscono l'immagine di sistema. L’immagine di sistema è tutto ciò che si percepisce dalla struttura fisica prodotta, completa di documentazione, istruzioni,significanti e ogni informazione accessibile dal sito web o dal servizio di assistenza clienti ed il modello concettuale dell'utente deriva dall'immagine di sistema. Questo spiega perché la comunicazione è un aspetto importante del buon design. Per quanto sia geniale il prodotto, se la gente non riesce ad usarlo l’accoglienza sarà cattiva. Tocca al progettista fornire le informazioni adeguate per rendere il prodotto comprensibile ed usabile.
 
 ## Vincoli
 
-classi di vincoli:
+I vincoli sono indizi potenti che limitano l'insieme delle azioni possibili. L'uso dei vincoli in sede di design permette alle persone di decidere prontamente il giusto corso d'azione, anche in una situazione del tutto nuova.
+È possibile categorizzare i vincoli in quattro classi:
 
-- vincoli fisici
-- vincoli culturali
-- vincoli semantici
-- vincoli logici
+- Fisici : si affidano alle proprietà del mondo fisico, senza alcun bisogno di istruzioni o di addestramento
+- Culturali : si affidano alle abitudini culturali, sociali, comportamentali che possono cambiare nel tempo
+- Semantici : si affidano al significato della situazione per circoscrivere l’insieme delle azioni possibili, si basano sulla conoscenza della situazione e del mondo
+- Logici :  dettati dalla semplice e pura logica umana.
 
-funzioni obbliganti
+Un buon designer può sfruttare questi vincoli per veicolare l'utente verso un modello mentale del prodotto che si avvicini il più possibile al modello concettuale desiderato e in tal modo garantirgli un UX gradevole. Mapping forti possono diventare dei vincoli logici, ed entrambi sono necessari per rendere l'interfaccia chiara e facile da comprendere.
 
-- interlock
-- lock-in
-- lock-out
-  
-comandi centrati sulle attività
+Le funzioni obbliganti sono una forma di vincolo fisico e consistono in situazioni in cui le azioni sono vincolate in modo che un passaggio mancato impedisca di procedere al successivo.
+Sono il caso estremo di vincoli atti ad impedire un comportamento inappropriato. Tre di questi metodi sono:
+
+- interlock : obbliga ad eseguire una serie di operazione nella sequenza corretta prima di avviare l'azione richiesta. Sono usati soprattutto come sistemi di sicurezza nei macchinari industriali ma anche nel mondo software come per esempio nel caso dei sistemi Captcha
+- lock-in : mantiene attiva una funzione impedendo che qualcuno la interrompa prematuramente. Per finire un task si deve compiere un'azione
+- lock-out : impedisce l'ingresso in uno spazio pericoloso o impedisce che succeda qualcosa, può essere considerato l'opposto del lock-in. Per accedere ad un task si deve compiere un'azione
+
+Il mapping spaziale dei comandi non è sempre il più opportuno, in molti casi è meglio avere interruttori diversi per attività diverse : comandi centrati sulle attività.
+Con i comandi centrati sulle attività possiamo usare un semplice comando per impostare una serie di oggetti per svolgere una determinata attività, senza comandarli uno ad uno.
+Questo metodo funziona particolarmente bene con utenti esperti poichè nella pratica è difficile da realizzare e soprattutto è necessario valutare gli imprevisti e le possibili soluzioni.
 
 ## Come le persone fanno le cose
 
