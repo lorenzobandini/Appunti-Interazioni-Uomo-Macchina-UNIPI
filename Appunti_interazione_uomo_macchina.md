@@ -412,35 +412,35 @@ Invece un esempio di NUI non basata su RBI è limitare le funzionalità e le per
 
 ## Graphical User Interface (GUI)
 
-struttura dell'interfaccia
+Descrive l'organizzazione di un interfaccia a livello di navigabilità. Si distinguono le seguenti strutture:
 
-- Struttura gerarchica
-- Struttura sequenziale
-- Struttura matriciale
-- Struttura a database
+- Struttura gerarchica : l'utente comincia a navigare da una pagina principale e poi naviga in profondità
+- Struttura sequenziale : l'utente naviga passo per passo seguendo un percorso prestabilito. La struttura ha un ingresso ed almeno un uscita
+- Struttura matriciale : l'utente non viene vincolato a nessuna struttura, è permessa una navigazione molti a molti. Spesso vengono messi dei navigator per spostarsi all'interno del sistema.
+- Struttura a database : rappresentazioni di dati in tabelle
 
-architettura dell'informazione e natura degli utenti, contenuti e contesti
+L'architettura dell'informazione spiega come i contenuti che si vogliono presentare all'utente sono organizzati, senza veicolare il modello concettuale.
 
-componenti principali:
+Le componenti principali sono:
 
-- Schemi o strutture organizzative
-- Sistemi di labelling
-- Sistemi di navigazione
-- Sistemi di ricerca
+- Schemi o strutture organizzative : come viene organizzata e strutturata l'informazione
+- Sistemi di labelling : come viene rappresentata l'informazione
+- Sistemi di navigazione : come gli utenti si spostano all'interno del sistema
+- Sistemi di ricerca : come gli utenti possono cercare informazioni
 
-tipi di schemi organizzativi:
+Si distinguono 2 tipi di schemi organizzativi:
 
-- Esatti
-  - Schema alfabetico
-  - Schema cronologico
-  - Schema geografico  
-- Soggettivi
-  - Topic scheme
-  - Task scheme
-  - Audience scheme
-  - Metaphoric scheme
+- Esatti : organizzano le informazioni in modo oggettivo in sezioni mutamente esclusive. Ad esempio:
+  - Schema alfabetico : fa uso dell'ordinamento lessicografico
+  - Schema cronologico : organizza il contenuto sulla base della data
+  - Schema geografico : organizza il contenuto sulla base della posizione  
+- Soggettivi : organizzando le informazioni in modo diverso per ogni utente. Ad esempio:
+  - Topic scheme : organizza il contenuto in base all'argomento
+  - Task scheme : organizza il contenuto sulla base dei bisogno, delle azioni, delle domande o dei processi che portano un utente a quel contenuto
+  - Audience scheme : organizza il contenuto sulla base del segmento di utenza
+  - Metaphoric scheme : organizza il contenuto legandolo a concetti familiari
 
-creare ibridi di schemi organizzativi
+È anche possibile combinare più schemi organizzativi per ottenere una struttura ibrida.
 
 navigazione nelle interfacce, principi base di findability e discoverability
 
