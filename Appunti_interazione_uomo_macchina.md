@@ -110,102 +110,135 @@ Il golfo dell'esecuzione corrisponde allo sforzo necessario per determinare come
 
 Entrambi i golfi sono presenti in molti apparati ma ed è importante tenere a mente che l'utente non si deve sentire stupido quando utilizza un prodotto e perciò le difficoltà hanno origine nel design e non nell'utente.
 
-i 7 stati dell'azione
+Compiere un'azione implica due fasi:
 
-- scopo
+- esecuzione e valutazione degli effetti
+- fare e interpretare
 
-stati d'esecuzione:
+Sia l'esecuzione che la valutazione richiedono che si capisca come funziona l'oggetto su cui si applica l'azione e quali risultati essa produce. Entrambe le fasi influiscono sullo stato emotivo dell'utente.
+Identificato il goal, o scopo, l’utente discende attraverso i tre stadi dell’esecuzione:
 
-- progettare
-- specificare
-- eseguire
+- pianificare : definire l'obiettivo
+- specificare : costruire una sequenza d'azione
+- eseguire : eseguire la sequenza d'azione
 
-stati di valutazione:
+La valutazione si articola anch’essa in tre stadi:
 
-- percepire
-- interpretare
-- confrontare
+- percepire : percepire lo stato del mondo
+- interpretazione : elaborare la percezione
+- confrontare : rapportare il risultato allo scopo
 
-i 7 principi fondamentali della progettazione
+Ecco così che si hanno i 7 stadi dell'azione: un per scopo, tre per l'esecuzione e tre per la valutazione.
+La maggior parte delle azioni non richiede che si percorrano tutti e 7 stadi in sequenza, ma quasi nessuna attività si risolve tramite un'azione singola. I sette stadi offrono uno schema per sviluppare nuovi prodotti o servizi. I golfi dell’esecuzione e della valutazione sono i punti più ovvi da cui partire, offrendo entrambi spunti per migliorare il prodotto.
 
-- cosa voglio ottenere?
-- quali sono le sequenze d'azione alternative?
-- quale azione posso fare ora?
-- cosa è successo?
-- cosa significa?
-- va bene? ho realizzato il mio scopo?
+Il modello a 7 stadi del ciclo d'azione è un prezioso sussidio per il design, in quanto introduce una lista di domande fondamentali. In generale, ogni stadio dell’azione richiede specifiche strategie progettuali, e, viceversa, presenta occasioni proprie di disastro.
 
-feedforward e feedback in interaction
+Ne derivano dunque 7 domande, a cui dovrebbe poter rispondere chiunque:
 
-i 7 principi fondamentali del design
+- Cosa voglio ottenere?
+- Quali sono le sequenze d'azione alternative?
+- Quale azione posso fare ora?
+- Cosa è successo?
+- Cosa significa?
+- Va bene? Ho realizzato il mio scopo?
 
-- visibilità
-- feedback
-- modello concettuale
-- affordance
-- significanti
-- mapping
-- vincoli
+Il progettista ha la responsabilità di garantire che a ogni stadio dell'azione il prodotto fornisca l'informazione neccessaria per proseguire correttamente.
+L'informazione che serve a rispondere alle domande nelle fasi attuative è definita come feedforward.
+L'informazione che aiuta a capire quello che è successo nelle fasi percettive è definita invece come feedback.
+
+Il feedforward si realizza mediante l'uso opportuno di significanti, vincoli e mapping, anche il modello concettuale ha un ruolo importante.
+Il feedback è dato dall'immediato cambiamento di stato che il prodotto deve mostrare all'utente e, anche qui, una parte importante è svolta dal modello concettuale.
+Sia il feedback sia il feedforward devono presentarsi in una forma facilmente interpretabile da chi utilizza il sistema. La presentazione deve corrispondere alla visione che le persone hanno dello scopo che vogliono realizzare e alle loro aspettative. L’informazione erogata deve essere immediatamente comprensibile.
+Dalle risposte relative ai sette stadi dell'azione si ricavano sette principi fondamentali del design:
+
+- visibilità : è bene che sia facile scoprire immediatamente quali azioni sono possibili e qual è lo stato attuale del dispositivo
+- feedback : è opportuno che ci sia un'informazione completa e continua riguardo risultati delle azioni e allo stato attuale del prodotto o del servizio. Dopo aver eseguito un’azione, deve essere facile determinare il risultato
+- modello concettuale : il design dovrebbe fornire tutta l’informazione necessaria per creare un buon modello concettuale del sistema, che favorisca la comprensione e la sensazione di controllo da parte dell’utente. Il modello concettuale potenzia sia la visibilità, sia la valutazione dei risultati.
+- affordance : è bene che le affordance siano fatte apposta per rendere possibili le azioni desiderate e impossibili quelle indesiderate
+- significanti : un uso efficace dei significanti assicura la visibilità e la comprensibilità dei comandi
+- mapping : è necessario che la relazione fra i comandi e le rispettive azioni obbedisca ai principi del buon mapping, sostenuto, per quanto possibile, dalla disposizione spaziale e dalla contiguità temporale
+- vincoli : bisogna fornire vincoli fisici, logici, semantici e culturali, in modo tale da guidare l’azione e facilitandone l'interpretazione
+
+Questi 7 principi sono mappati uno ad uno sugli stadi d'azione dell'utente. La maggior parte delle azioni svolte quotidianamente, goal e intenzioni non sono davvero specificati: sono opportunistici anziché pianificati. Le azioni opportunistiche sono quelle in cui il comportamento scaturisce delle circostanze. Gli utenti in questi casi agiscono in maniera non controllata e quindi non prevedibile. È difficile fare buon design per queste situazioni, anche attenendosi a tutti i principi esposti fino ad ora: l’utente che agisce in maniera opportunistica romperà in ogni caso questi schemi.
   
-pensiero umano
+La mente umana è infatti molto complessa, non esiste un indicatore che separi pensiero subconsio (di cui non siamo consapevoli poiché nascosto e veloce) e pensiero conscio (di cui siamo consapevoli poiché elaborato e orientato all'analisi).
+Il pensiero conscio interviene per l'apprendimento ma, al termine della fase iniziale, pratica e studio producono quello che gli psicologi chiamano "overlearning", una fase finale in cui un'abilità è stata "overlearned" e i suoi gesti verranno svolti in maniera automatica e senza sforzi.
 
-conscio e subconscio
+Il modo in cui ricordiamo le esperienze anche se le azioni sono fatte dal subconscio avviene attraverso la memoria esponenziale che ricorda bene gli elementi importanti mentre quelli meno importanti li cerca di ricordare attraverso l'esperienza.
 
-tipi di memoria:
+Distinguiamo 2 tipi di memoria:
 
-- memoria dichiarativa
-- memoria procedurale
+- memoria dichiarativa : utilizzata per recuperare informazioni fattuali
+- memoria procedurale : utilizzata per recuperare informazioni procedurali
 
-emozioni e cognizione
+Un altro elemento determinante per il passaggio da un pensiero subconsio a uno conscio è lo stato emozionale. La divisione in conscio e subconscio può essere ulteriormente affinata andando a dividere il modo in cui il cervello fa processing in tre livelli procedurali:
 
-processing del cervello:
+- livello viscerale : è il livello più elementare, permette di rispondere prontamente in maniera subconscia, senza consapevolezza o controllo cosciente
+- livello comportamentale : è la sede delle abilità apprese durante circostanze più o meno simili a quelle attuali. Durante l’esecuzione, il livello comportamentale è guidato dalle aspettative, e durante l’attesa di conferma di tali aspettative è invece guidato dalle emozioni. Il livello comportamentale stabilisce in che modo si compie una determinata azione e in che modo si interpreta un determinato feedback
+- livello riflessivo : è il livello della cognizione conscia, è qui che si sviluppa la comprensione profonda e hanno luogo il ragionamento e i processi decisionali. Qui fanno capo i livelli più alti di emotività: soddisfazione e orgoglio, ma anche frustrazione e senso di colpa
 
-- livello viscerale
-- livello comportamentale
-- livello riflessivo
+Veicolare informazioni all’utente mentre egli si trova nel livello riflessivo è estremamente efficace. Al livello riflessivo il suo pensiero è conscio e le emozioni che egli produce sono le più durature.
+Gli stimoli riflessivi sono parte integrante del ricordo degli eventi, è importante quindi creare nell’utente ricordi positivi mentre egli è in questo stadio dell’azione, perché tali ricordi sono i più duraturi.
+Inoltre è la riflessione, intesa come pensiero cosciente, che induce a consigliare un prodotto e raccomandarne l’uso o magari a sconsigliarlo
 
 ## Errore Umano
 
-root cause analysis
+La maggior parte degli incidenti industriali è causata da errore umano ma ciò non è causato dall'uomo che è incopetente ma bensì dalla mala progettazione e un cattivo design. Nei nuovi dispositivi sempre più spesso viene richiesta la massima vigilanza di tutte le attività o la memorizzazione di procedure complicate e l'interruzione è una della cause che più frequentemente portano all'errore umano.
 
-i 5 perché
+Uno dei più grandi problemi è l'atteggiamento delle persone verso gli errori commessi che a causa delle perdite economiche o danni a persone, cercano sempre di trovare un responsabile e non una soluzione così che lo stesso errore continuerà a presentarsi.
+Per evitare di incorrere nuovamente nell'errore, quando esso viene commesso, è bene studiarne le cause e ridisegnare il prodotto.
 
-definizione di errore
+La Root Cause Analysis consiste nell'indagare l'incidente finché non si trova la singola causa che ne è l'origine ovvero il momento nel tempo quando effettivamente qualcuno ha preso decisioni o eseguito azioni sbagliate e, una volta fatto ciò accertare da cosa è derivato lo sbaglio e non fermarsi solamente al colpevole.
+Cercare di trovare la causa di un incidente però ha due difetti:
 
-- lapsus o slips
-  - di azione
-  - di memoria
-- mistakes
-  - rule based
-  - knowledge based
-  - memory lapse
+- La maggior parte degli incidenti non ha una sola causa. Da qui il modello a groviera degli incidenti di James Reason
+- Solitamente l’analisi delle cause profonde si ferma non appena trovato un errore umano
 
-interruzioni
+Se una macchina smette di funzionare per un guasto o un malfunzionamento si cerca di capire come mai si è rotta o cosa l’ha portata a guastarsi. È opportuno fare lo stesso quando si scopre un errore umano: individuarne le cause.
+Quando durante l’analisi delle cause profonde si incontra, nella concatenazione di cause ed effetti, un errore umano, il lavoro è appena cominciato: bisogna capire perché l’errore è accaduto e cosa si può fare per prevenirlo.
 
-feedback sbagliati
+L'analisi delle cause profonde mira a determinare la causa prima di un evento,la vera causa di fondo, e non la causa immediata. Perciò la Toyota ideò il sistema di controllo dei suoi prodotto chiamato "Procedura dei 5 perché" che consiste nel chiedersi 5 volte il perché di un errore per arrivare alla causa principale e non soffermarsi alla prima causa apparente.
 
-prevenzione dell'errore
+Quando le persone sbagliano, bisogna cambiare il sistema in modo da evitare l’errore e, se non è possibile eliminarlo del tutto, almeno fare in modo di ridurne gli effetti.
+Se il sistema lascia sbagliare gli utenti è mal progettato, se il sistema induce all’errore, allora è progettato malissimo.
 
-- comprendere le cause dell'errore
-- controlli di sensibilità
-- annunciare le azioni
-- rendere più semplice la scoperta e comprensione degli errori
-- aiutare l'utente a compiere correttamente le azioni
+Il fatto che le persone sbagliano succede perché il design si concentra sulle esigenze del sistema e delle macchine, non su quelle degli utenti.
 
-per la prevenzione dell'errore utilizzare:
+Si definisce errore umano ogni deviazione del comportamento appropriato oppure ogni comportamento che si discosta da quello generalmente accettato come giusto o adeguato. Errore è il termine generale per tutte le situazioni sbagliate. È possibile dividere gli errori in due classi:
 
-- constraints
-- undo
-- messaggi di errore e di conferma
-- aumentare il numero di controlli
-- migliorare il modello concettuale dell'utente
-- allertare l'operatore umano quando ci si avvicina a un errore
+- Lapsus o slips : si ha quando s'intende eseguire un'azione e si finisce per eseguirne un'altra. Nel caso di lapsus, l'azione eseguita non è quella voluta. I lapsus si hanno nelle fasi attuative e percettive dell'azione. Ci sono due tipi principali di lapsus:
+  - Di azione : si esegue un azione sbagliata.
+  - Di memoria : si dimentica di eseuire un'azione o di valutarne i risultati.
+- Mistakes : si ha quando si è sbagliato un goal o lo scopo. Da quel momento in poi le azioni, anche se esguite correttamente, fanno parte dell'errore essendo di per sé inappropriate. In questo tipo di errore l'azione è corretta ma l'intenzione no. I mistakes si hanno nele fasi di pianificazione e valutazione dell'azione. I mistakes si suddividono in:
+  - Rule based : la diagnosi della situazione è giusta, ma poi viene scelto un corso d’azione sbagliato, seguendo una regola operativa errata
+  - Knowledge based : la diagnosi della situazione è sbagliata
+  - Memory lapse : un passaggio viene dimenticato nel momento in cui si fissano gli obiettivi o si esegue una procedura o se ne valutano i risultati
 
-mitigazione dell'errore usando metafora formaggio svizzero:
+Per prevenire gli errori umani possiamo:
 
-- aumentare il numero di controlli (fette di formaggio)
-- diminuire la probabilità di errore (buchi nel formaggio)
-- allertare l'operatore umano quando ci si avvicina a un errore (buchi si sono allineati)
+- Comprendere le cause dell'errore
+- Controlli di sensibilità
+- Rendere possibile l'annulamento delle azioni
+- Rendere più semplice la scoperta e comprensione degli errori
+- Aiutare l'utente a compiere correttamente le azioni
+
+I novizi del sistema cadono in mistakes poiché non hanno una base di conoscenza adeguata, mentre gli utenti esperti che usano il sofware da molto tempo commettono errori di lapsus poiché tendono ad esguire i compiti in maniera automatica affidandosi al controllo del subconscio.
+I mistakes nascono da informazioni ambigue o poco chiare sulla stato del sistema e dalla mancanza di un buon modello concettuale.
+Le interruzioni sono una delle più grandi cause di errore, soprattutto i lapsus. Quando un’attività viene interrotta da qualche evento, il costo in attenzione è molto maggiore della perdita di tempo causata dell’interruzione. Per riprendere il lavoro è necessario ricordare precisamente il precedente stato dell’attività
+Alcune cause di errore umano sono anche i feedback usati in omdo sbagliato. Tanti segnali che occorrono i diverse situazioni in maniera ricorrente possono portare le persone a disconnettere i segnali o a non farci più caso ed a quel punto non ci si accorgerà più quando occorre un messaggio importante. I segnali quindi devono essere ponderati e usati solo quando necessario. Un segnale parlato è più efficace se usato in modo intelligente.
+
+Per la prevenzione dell'errore utilizzare:
+
+- Vincoli : aggiungendo vincoli alle azioni cosicché controlli confondibili vengono piazzati lontano l'uno dall'altro oppure usare moduli separati per controlli non collegati.
+- Undo : comando che annulla le operazioni effettuate in precedenza.
+- Messaggi di errore e di conferma : visualizzare un messaggio con sia l'azione da compiere che l'oggetto interessato con azione annulla o prosegui.
+- Controlli di sensibilità : controlli che verificano se l'operazione richiesta sia sensibile o ragionevole.
+
+Tutto ciò è riconducibile all'esempio della groviera degli incidenti di James Reason. Quindi per mitigare dell'errore usando metafora formaggio svizzero:
+
+- Aumentare il numero di controlli (fette di formaggio)
+- Diminuire la probabilità di errore (buchi nel formaggio)
+- Allertare l'operatore umano quando ci si avvicina a un errore (buchi si sono allineati)
 
 ## Le interfacce utente
 
@@ -957,7 +990,7 @@ Per pianificare un usability test abbiamo di:
 21. cos'è una nui?
 22. come si scrivono le user stories?
 23. cos'è l'immagine di un sistema
-24. quali sono i sette stadi dell'azione?
+24. quali sono i 7 stadi dell'azione?
 25. cos'è un wireframe?
 26. cos'è un modello a doppio diamante?
 27. cos'è un dispositivo aptico?
