@@ -95,7 +95,20 @@ Questo metodo funziona particolarmente bene con utenti esperti poichè nella pra
 
 ## Come le persone fanno le cose
 
-golfi dell'esecuzione e della valutazione
+Per capire come gli utenti si approcciano ad un prodotto e come imparano ad usarlo, è importante soffermarsi anche su come la mente umana lavora e come vengono scelte le azioni da compiere, che porteranno sia il piacere quando le cose funzionano senza intoppi e sia quando si frustrano perché le cose non funzionano come dovrebbero.
+
+Quando usiamo un oggetto, ci si trova davanti due golfi:
+
+- Il golfo dell'esecuzione nel quale si cerca di indovinare cosa fare
+- Il golfo della valutazione nel quale si cerca di capire cosa è successo
+
+Il compito del progettista è quello di aiutare gli utenti a superare i due golfi e renderli meno profondi possibili.
+
+Il golfo della valutazione corrisponde allo sforzo necessario per interpretare lo stato fisico del dispositivo e capire fino a che punto sono state realizzate le aspettative e le intenzioni iniziali. Il golfo è stretto quando il dispositivo fornisce informazioni sul proprio stato, in una forma facile da cogliere e interpretare. Gli elementi progettuali più importanti per superare il golfo della valutazione sono il feedback e un modello concettuale adeguato.
+
+Il golfo dell'esecuzione corrisponde allo sforzo necessario per determinare come operare sul dispositivo, quali azioni sono possibili e come eseguirle. Il golfo è stretto quando il dispositivo fornisce un buon mapping tra le azioni e gli effetti, quando le azioni sono visibili e quando il dispositivo fornisce un buon feedback. Gli elementi progettuali più importanti per superare il golfo dell'esecuzione sono il mapping, la visibilità, i vincoli e un modello concettuale adeguato.
+
+Entrambi i golfi sono presenti in molti apparati ma ed è importante tenere a mente che l'utente non si deve sentire stupido quando utilizza un prodotto e perciò le difficoltà hanno origine nel design e non nell'utente.
 
 i 7 stati dell'azione
 
