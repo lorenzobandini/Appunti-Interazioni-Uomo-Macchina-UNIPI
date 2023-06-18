@@ -442,42 +442,43 @@ Si distinguono 2 tipi di schemi organizzativi:
 
 È anche possibile combinare più schemi organizzativi per ottenere una struttura ibrida.
 
-navigazione nelle interfacce, principi base di findability e discoverability
+Nell'architettura dell'informazione è importante anche il design della navigazione, cioè come gli utenti si orientano nell'interfaccia. I principi base della navigazione sono la findability e la discoverability.
+Per findability intendiamo l'essere abile di trovare l'informazione che stavi cercando mentre per discoverability ci riferiamo alla possibilità degli utenti di scoprire nuove informazioni o feature che non stavano cercando.
 
-modelli di comportamento degli utenti per la ricerca di informazioni:
+Quando un utente inizia un interazione con il sistema è influenzato dalle varie informazioni che ha a disposizione. Ci sono quindi una serie di pattern, cioè una serie di eventi in successione, che si ripetono:
 
-- Quit
-- Narrow
-- Expand
-- Pearl growing
-- Pogosticking
-- Trashing
-- Berry picking
+- Quit : l'utente cerca l'informazione, vede il risultato ed esce
+- Narrow : l'utente cerca l'informazione, vede il risultato e cerca di restringere la ricerca tramite strumenti di filtraggio
+- Expand : l'utente cerca l'informazione, vede il risultato e cerca di avere più informazioni
+- Pearl growing : l'utente cerca l'informazione, apre uno dei risultati e utilizza i collegamenti al suo interno
+- Pogosticking : l'utente cerca l'informazione e poi ripete l'azione di aprire e chiudere i vari risultati
+- Trashing : l'utente cerca l'informazione, guarda i risultati, e poi torna a fare una nuova ricerca aggiungendo dettagli
+- Berry picking : l'utente cerca l'informazione, apre un risultato e torna a fare una nuova ricerca aggiungendo dettagli
 
-antipattern
+Alcuni di questi comportamenti possono accadere a volte, ma quando capita troppo spesso è un segnale che l'architettura dell'informazione non è ben fatta e si tratta di anti-pattern.
 
-design pattern:
+In parallelo con i pattern di comportamento ci sono anche dei design pattern che migliorano l'architettura dell'interfaccia.
 
-- Autocomplete
-- Autosuggest
-- Instat result
-- Did you mean
-- Autocorrect
-- Best first
-- Partial matches
-- Related seraches
-- Federated search
-- Faceted navigation
-- Advanced search
-- Scoped search
-- Personalization
-- Pagination
-- Actionable result
-- Comparing result
-- Unfied discovery
+- Autocomplete : completa la ricerca dell'utente con suggerimenti
+- Autosuggest : consiglia termini di ricerca simili
+- Instat result : risponde alla ricerca mentre l'utente la sta ancora scrivendo
+- Did you mean : dopo che l'utente ha scritto la ricerca, il sistema gli chiede se intendeva un'altra cosa
+- Autocorrect : invece di suggerire termini simili, corregge la ricerca dell'utente automaticamente
+- Best first : ordina i risultati in base a un criterio dato da un algoritmo
+- Partial matches : mostra i risultati che si avvicinano di più alla ricerca dell'utente
+- Related seraches : mostra ricerche correlate per possono ispirare l'utente
+- Federated search : da la possibilità di cercare in più fonti di informazione
+- Faceted navigation : da la possibilità di filtrare i risultati in base a delle categorie
+- Advanced search : da la possibilità di fare ricerche avanzate con più parametri
+- Scoped search : se è possibile divide i risultati in categorie
+- Personalization : adatta i risultati in base al profilo dell'utente
+- Pagination : mostra un numero massimo di pagine
+- Structurable results : mostra i risultati tramite strutture che sono più congrutenti con i contenuti
+- Actionable result : dipendentemente dal tipo di contenuto, mostra azioni che l'utente può fare
+- Comparing result : da la possibilità all'utente di fare confronti tra i risultati
+- Unfied discovery : mostra i risultati in base a più fonti di informazione
 
-layout di interfacce e componenti
-Document Object Model (DOM): cross-platform e interfaccia language-independent che permette ai programmi e agli script di accedere e aggiornare il contenuto, la struttura e lo stile dei documenti. Rappresenta il documento come un albero di nodi.
+Il Document Object Model è una rappresentazione in un linguaggio di alto livello della struttura di un sito web o di una app che viene interpretata e renderizzata dal browser, è tipicamente organizzato come un documento gerarchico.
 Quando una pagina web JavaScript è caricata, viene creato un Document Object Model (DOM) della pagina che è una rappresentazione object oriented del documento HTML che si interfaccia tra JavaScript e il documento dando la possibilità di:
 
 - Aggiungere, cambiare e rimuovere elementi HTML
@@ -494,21 +495,24 @@ gli elementi dell'interfaccia sono:
 
 ## UX design
 
-identificare le personas mediante:
+Per portare avanti un progetto di un prodotto è necessario curare anche l'esperienza utente, cioè l'esperienza che l'utente ha quando interagisce con il prodotto e per farlo al meglio è necessario seguire un processo di UX design che ci permette di capire quali sono gli utenti,quali sono i loro comportamenti e quali sono i loro bisogni.
+Ciò si ottiene seguendo delle fasi dinamiche e alternabili.
 
-- Task analysis
-- Feedback
-- Prototipazione
+Per identificare le personas, cioè l'archetipo di uno dei possibili utenti possiamo usare le tecniche di:
 
-dipendentemente dai dati che abbiamo possiamo avere 3 tipi di personas:
+- Task analysis : analisi delle attività che l'utente deve svolgere
+- Feedback : analisi dei feedback che l'utente da durante l'utilizzo del prodotto
+- Prototipazione : creazione di prototipi per testare le interazioni con l'utente
 
-- Proto-personas
-- Qualitative personas
-- Statistical personas
+Dipendentemente dai dati che abbiamo possiamo avere 3 tipi di personas:
 
-principio di Pareto
+- Proto-personas : un prototipo di persona ideale creata sulla base di dati aneddotici
+- Qualitative personas : creata sulla base di ricerche su un campione medio-piccolo di utenti
+- Statistical personas : creata collezionando e analizzando dati da una grande quantità di utenti.
 
-tipi di informazioni di una personas:
+Il principio di Pareto ci consiglia di concentrarci sulle personas che rappresentano il 20% degli utenti che portano il 80% del utilizzo complessivo del prodotto.
+
+Le informazioni di cui teniamo conto di una personas sono:
 
 - Demografiche
 - Personali
@@ -516,57 +520,48 @@ tipi di informazioni di una personas:
 - Obiettivi e motivazioni
 - Comportamentali
 
-personas e archetipi
+Le personas verranno poi definiti con qualcosa di più astratto chiamato archetipo che rappresenta un tipo di utente generico con le sue caratteristiche.
 
-requirements
+Un requirement è un servizio o una caratteristica che soddisfa un bisogno di un utente, come ad esempio funzioni, vincoli, regole aziendali o altri tipi di elementi di cui il prodotto deve essere dotato per soddisfare le esigenze degli utenti. È più facile capire i requirements corretti se abbiamo ben presente le personas. Esistono 2 tipi di requirements:
 
-- Funzionali
-- Non funzionali
+- Funzionali : descrivono quali funzioni deve avere il prodotto
+- Non funzionali : specificano i tratti qualitativi del prodotto
 
-user stories
-
-è una breve dichiarazione o astrazione che identifica l'utente e il suo bisogno/obiettivo.
+Una user stories è una breve dichiarazione o astrazione che identifica l'utente e il suo bisogno/obiettivo.
 É un requisito espresso dalla prospettiva di un dell'obiettivo dell'utente.
 aiutano a documentare informazioni pratiche riguardo gli utenti e aiutano gli sviluppatori a tracciare una roadmap.
 struttura: As a 'role', I want 'feature' because 'reason'.
 tutti possono scrivere user stories ad ogni livello di dettagli.
 i dettagli possono essere aggiunti splittando le user stories in multiple user stories o aggiugendo condizioni di soddisfazione.
 
-scenarios
-
-uno scenario è una situazione che cattura come gli utenti interagiscono con un prodotto.
-
-un buon scenario deve rispondere:
+Uno scenario è una situazione che cattura come gli utenti interagiscono con un prodotto.
+Un buono scenario deve rispondere:
 
 - Chi è l'utente?
 - Motivazione e aspettativa dal prodotto?
 - Qual'è il suo obiettivo?
 
-grazie agli scenarios possiamo determinare:
+Grazie agli scenarios possiamo determinare:
 
 - I punti importanti durante progettazione per l'UX
 - Fasi del processo che richiedono ulteriore revisione e attenzione
 - Le principali esigenze e motivazioni dell'utente
   
-modi per scrivere scenarios:
+I metodi principali per scrivere scenarios sono:
 
 - Goal o task orinentati agli scenarios
 - Elaborated scenarios
 - Full scale task scenarios
 
-casi d'uso
+Gli use cases sono la naturale evoluzione degli scenarios. Consistono della completa narrativa di quali azioni l’utente compie per svolgere uno scenario.
+Ogni caso d'uso è rappresentato come una sequenza di passaggi che iniziano con l'obiettivo dell'utente e terminano quando l'obiettivo è raggiunto.
+Un caso d'uso aggiunge valore perché aiuta a spiegare come il sistema dovrebbe comportarsi e forniscono una lista di obiettivi.
 
-è una descrizione scritta di come un utente interagisce con un sistema.
-ogni caso d'uso è rappresentato come una sequenza di passaggi che iniziano con l'obiettivo dell'utente e terminano quando l'obiettivo è raggiunto.
-un caso d'uso aggiunge valore perché aiuta a spiegare come il sistema dovrebbe comportarsi e forniscono una lista di obiettivi.
+La differenza tra scenarios e caso d'uso è ch uno scenario richiede una situazione che può avere uno o più attori che intraprendono una determinata funzionalità.
+un caso d'uso coinvolge un attore e il flusso che un particolare attore prende in una determinata funzionalità o percorso.
+La differenza principale è la prospettiva.
 
-scenarios vs casi d'uso
-
-uno scenario richiede una situazione che può avere uno o più attori che intraprendono una determinata funzionalità.
-un caso d'uso coinvolge un attore e il flusso che un particolare attore prende in una determinata funzionalità o percorso..
-la differenza principale è la prospettiva.
-
-includono:
+Gli uses case includono:
 
 - L'utente
 - Cosa vuole fare
@@ -577,12 +572,12 @@ includono:
 - Basic flow
 - Alternative flow
   
-non includono:
+Mentre non includono:
 
 - Dettagli implementativi o di scelta tecnologica
 - Dettagli di UI
 
-i passaggi da seguire per la creazione di un caso d'uso sono:
+I passaggi da seguire per la creazione di un caso d'uso sono:
 
 1. Identificare le personas
 2. Sceglierne una per caso d'uso
@@ -964,49 +959,3 @@ Per pianificare un usability test abbiamo di:
 8. Cercare di essere divertente
 9. Offendere i partecipanti
 10. Fare altre domande oltre a quelle dei task
-
-## Domande orale Interazione Uomo Macchina
-
-1. differenza tra design thinking e human centered design
-2. esempio di mapping
-3. cos'è uno scenarios? da cosa parto per definirli?
-4. cos'è un prototipo? gradi di fedeltà?
-5. cos'è la ppg?
-6. cos'è lo scanner time-of-flight?
-7. user behavior pattern? *
-8. come deve essere un feedback?
-9. differenza tra mockup e prototipo? *mockup
-10. cos'è una imu?
-11. cos'è un sistema di eyetracking e quali tecnologie conosciamo?
-12. cosa sono l'euristiche di nielsen? *
-13. quali sono gli errori umani?
-14. prese x persone. quale sarà il numero y che fa le z cose? *
-15. cos'è lo human center design process?
-16. cos'è il test qualitativo? *
-17. scanner 3d a luce strutturata
-18. cosa sono lapsus d'azione
-19. modello concettuale fa parte del sistema?
-20. cos'è il paradigma?
-21. cos'è una nui?
-22. come si scrivono le user stories?
-23. cos'è l'immagine di un sistema
-24. quali sono i 7 stadi dell'azione?
-25. cos'è un wireframe?
-26. cos'è un modello a doppio diamante?
-27. cos'è un dispositivo aptico?
-28. differenza affordance significativa?
-29. tipi di test?
-30. quali sono i principi fondamentali dell'interazione?
-31. cos'è l'HID protocol?
-32. differenza tra user stories e requirements?
-33. parlami dei vincoli
-34. come devono essere i feedback?
-35. struttura di un'interfaccia *
-36. la regola dei 5 perché?
-37. discoverability e understanding
-38. differenza tra prototipo e pretotipo
-39. livelli mentali dell'essere umano
-40. i 7 stadi dell'azione
-41. come si dividono i sistemi di puntamento?
-42. distruptive innovation
-43. 6 caratteristiche principali del prototipo *
