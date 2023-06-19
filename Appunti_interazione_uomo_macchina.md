@@ -2,11 +2,11 @@
 
 ## Design
 
-Per design si intende sia il processo di progettazione e pianificazione sia il risultato di questo processo. L’obiettivo principale del design di prodotto non è necessariamente quello di trovare una soluzione al problema specifico ma è piuttosto quella di comprendere il problema stesso nel suo insieme.
+Per design si intende sia il processo di progettazione e pianificazione, sia il risultato di questo processo. L’obiettivo principale del design di prodotto non è necessariamente quello di trovare una soluzione al problema specifico ma è piuttosto quella di comprendere il problema stesso nel suo insieme.
 Nel mondo del design il primo passo è sempre quello di capire perché il problema esiste e solo dopo aver appurato che l’origine di un problema non può essere eliminata o mitigata ci si adopera per cercare di risolverlo nello specifico.
 Nel design di prodotto ci si trova infatti spesso costretti a modificare i requirement e le specifiche di prodotto per andare in contro alle esigenze degli utenti e sacrificando funzionalità tecniche e qualità dell’implementazione software. Trovare il corretto bilanciamento fra esperienza utente, funzionalità e qualità tecnica è la parte più complessa dell’intero processo di sviluppo prodotto.
 
-Il mondo del design è diventato talmente ampio che il termine design da solo ormai non ha quasi più significato. Esistono varie sotto discipline del design e con queste numerose professioni, metodi di lavoro, scuole di pensiero e altrettante immancabili faide e lotte fra fazioni.
+Il mondo del design è diventato talmente ampio che il termine design da solo ormai non ha quasi più significato. Esistono varie sotto discipline del design e con queste, numerose professioni, metodi di lavoro, scuole di pensiero e altrettante immancabili faide e lotte fra fazioni.
 Tra le varie sotto discipline del design troviamo l'interaction design che è l'attività di progettazione dell'interazione che avviene tra esseri umani e oggetti in generale.
 L’obiettivo principale dell’interaction design è quello di rendere macchine, servizi e sistemi usabili dagli utenti per cui sono stati pensati e realizzati e non solamente dai propri creatori. Le forze trainanti lo sviluppo di un prodotto dovrebbero esserre quindi gli utenti reali e i loro bisogni e non solo le tecnologie.
 Ciò che ci interessa quindi è il campo dell'interaizone uomo-macchina e uomo-computer cioè Human-Machine Interaction (HMI) e Human-Computer Interaction (HCI).
@@ -41,16 +41,16 @@ Il problema è che il buon design non è universale, poiché l'esperienza di int
 - Understanding (comprensibilità) : la capacità del prodotto di farsi usare correttamente dall'utente cioé la misura di quanto bene l'utente capisce come usare le funzioni del prodotto.
 
 È fondamentale comprendere il concetto di "Design of Useful Things", il quale si basa sulla premessa che quando le cose funzionano correttamente, vengono dimenticate immediatamente, mentre quando presentano problemi, non vengono mai dimenticate.
-Questo fenomeno è noto a tutti ed ho dovuto perché ormai viviamo in una società in cui le cose devono andare bene per definizione, mentre se qualcosa va storto scattano una serie di reazioni che portano la persona a provare senzazioni e emozioni spiacevoli. Il design deve quindi preoccuparsi di come funzionano le cose, come vengono controllate e dalla natura delle interazione che questi oggeti e sistemi abilitano con gli utenti. Questo vuol dire che una cattiva esperienza utente induce l'utilizzatore ad abbandonare l'utilizzo del prodotto e etichettare quel prodotto e azienda come negativa e perciò bisogna fare di tutto per evitarlo. Il problema è che le macchine sono concepite, progettate e costruite per funzionare perfettamente ma secondo regole di comportamento rigide a differenza dell'uomo che è aleatorio, versatile, variabile, volubile e intuitivo e data questa differenza bisogna evitare che le macchine obblighino le persone a smettere di comportarsi da umani inducendole a comportarsi da macchine. Quindi quando la macchina fa la cosa sbagliata, tipicamente l'utente si senta incapace e perciò deve essere ribaltata la prospettiva in modo che quando le cose vanno male la colpa non è mai dell'utente ma è sempre della macchina e quindi del progettista, che deve progettare per come le persone sono e non per come vorrebbe che fossero.
+Questo fenomeno è noto a tutti ed ho dovuto perché ormai viviamo in una società in cui le cose devono andare bene per definizione, mentre se qualcosa va storto scattano una serie di reazioni che portano la persona a provare senzazioni e emozioni spiacevoli. Il design deve quindi preoccuparsi di come funzionano le cose, come vengono controllate e dalla natura delle interazione che questi oggetti e sistemi abilitano con gli utenti. Questo vuol dire che una cattiva esperienza utente induce l'utilizzatore ad abbandonare l'utilizzo del prodotto e etichettare quel prodotto e azienda come negativa e perciò bisogna fare di tutto per evitarlo. Il problema è che le macchine sono concepite, progettate e costruite per funzionare perfettamente ma secondo regole di comportamento rigide a differenza dell'uomo che è aleatorio, versatile, variabile, volubile e intuitivo e data questa differenza bisogna evitare che le macchine obblighino le persone a smettere di comportarsi da umani inducendole a comportarsi da macchine. Quindi quando la macchina fa la cosa sbagliata, tipicamente l'utente si senta incapace e perciò deve essere ribaltata la prospettiva in modo che quando le cose vanno male la colpa non è mai dell'utente ma è sempre della macchina e quindi del progettista, che deve progettare per come le persone sono e non per come vorrebbe che fossero.
 
 L'incidente di three mile island è un eclatante esempio pratico di mal progettazione delle interfacce. Il 28 marzo del 1979 nella contea di Daulphin, in Pennsylvania ci fu il più grave incidente nucleare avvenuto negli Stati Uniti che ha portato al rilascio di piccole quantità di gas radioattivi e di iodio radioattivo nell'ambiente.
 Il reattore era ad un regime di potenza del 97% e il sistema di raffreddamento secondo si era spento portando un considerevole aumento di pressione al circuito primario causando l'apertura di una valvola PORV di rilascio posta sul pressurizzatore e portò allo SCRAM, l'arresto di emergenza mediante l'inserimento delle barre di controllo. A questo punto la valvola di rilascio non si richiuse e gli operatori non si resero conto del problema, poiché non vi era nella strumentazione l'indicazione della reale posizione della valvola. La strumentazione era infatti legata all'alimentazione del motore della valvola e non alla reale posizione della valvola. Fu così che il circuito di raffreddamento primario si vuotò parzialmente e il calore residuo del nocciolo del reattore non potè essere smaltito. Gli operatori non poterono diagnosticare correttamente cosa avveniva e reagire in maniera adeguata. La strumentazione carente della sala controllo e l'addestramento inandeguato risultarono essere le cause principali dell'incidente.
 
 ## Principi fondamentali dell'interazione
 
-Un buon design produce un'esperienza piacevole, e ciò è necessario perché grazie all'esperienza di crea un bel ricordo mentre quando la tecnologia si comporta in maniera inaspettata si provano emozioni negative. Un utente che comprende il corretto funzionamento di un prodotto e si sente padrone sarà soddisfatto e orgoglioso. Cognizione ed emozione sono profondamente legate. La visibilità o discoverability di un prodotto è fondamentale per suscitare queste emozioni ed è il risultato di 5 concetty psicologici fondamentali: affordance, singnificanti, mapping, feedback e vincoli. C’è poi un sesto principio che come vedremo non è legato a degli elementi specifici dell’interfaccia ma piuttosto al concetto generale su cui si va a basare il funzionamento del sistema, il modello concettuale del sistema
+Un buon design produce un'esperienza piacevole, e ciò è necessario perché grazie all'esperienza si crea un bel ricordo mentre quando la tecnologia si comporta in maniera inaspettata si provano emozioni negative. Un utente che comprende il corretto funzionamento di un prodotto e si sente padrone sarà soddisfatto e orgoglioso. Cognizione ed emozione sono profondamente legate. La visibilità o discoverability di un prodotto è fondamentale per suscitare queste emozioni ed è il risultato di 5 concetti psicologici fondamentali: affordance, singnificanti, mapping, feedback e vincoli. C’è poi un sesto principio che come vedremo non è legato a degli elementi specifici dell’interfaccia ma piuttosto al concetto generale su cui si va a basare il funzionamento del sistema cioè il modello concettuale del sistema
 
-Il termine affordance, che vuol dire invito, indica la relazione tra le proprietà di un oggetto e le capacitò dell'agente che determina come l'oggetto possa essere utilizzato. Le affordance non sono quindi proprietà oggettive di un sistema o prodotto ma piuttosto relazioni prodotto-utente che se stabilite abilitano o disabilitano specifiche modalità di interazione fra le parti, ad esempio una sedia sembra fatta apposta per sostenere qualcosa e invita alla seduta. Oltre all'affordance esiste l'anti-affordancec che invece nega alcuni modi di interagire con l'oggetto, ad esempio degli spunzoni negano che un utente ci si sieda sopra.
+Il termine affordance, che vuol dire invito, indica la relazione tra le proprietà di un oggetto e le capacità dell'agente che determina come l'oggetto possa essere utilizzato. Le affordance non sono quindi proprietà oggettive di un sistema o prodotto ma piuttosto relazioni prodotto-utente che se stabilite abilitano o disabilitano specifiche modalità di interazione fra le parti, ad esempio una sedia sembra fatta apposta per sostenere qualcosa e invita alla seduta. Oltre all'affordance esiste l'anti-affordance che invece nega alcuni modi di interagire con l'oggetto, ad esempio degli spunzoni negano che un utente ci si sieda sopra.
 Le affordance e le anti-affordance per abilitare o disabilitare una particolare modalità di interazione fra oggetto ed utente devono essere percepibili, discoverable.
 
 Per dare visibilità ad un'affordance si usano i significanti, che sono un modo per indicare dove effettuare un'azione. Molto spesso i significanti sono indispensabili poiché la maggior parte delle affordance sono invisibili. Possono essere:
@@ -104,9 +104,9 @@ Quando usiamo un oggetto, ci si trova davanti due golfi:
 
 Il compito del progettista è quello di aiutare gli utenti a superare i due golfi e renderli meno profondi possibili.
 
-Il golfo della valutazione corrisponde allo sforzo necessario per interpretare lo stato fisico del dispositivo e capire fino a che punto sono state realizzate le aspettative e le intenzioni iniziali. Il golfo è stretto quando il dispositivo fornisce informazioni sul proprio stato, in una forma facile da cogliere e interpretare. Gli elementi progettuali più importanti per superare il golfo della valutazione sono il feedback e un modello concettuale adeguato.
-
 Il golfo dell'esecuzione corrisponde allo sforzo necessario per determinare come operare sul dispositivo, quali azioni sono possibili e come eseguirle. Il golfo è stretto quando il dispositivo fornisce un buon mapping tra le azioni e gli effetti, quando le azioni sono visibili e quando il dispositivo fornisce un buon feedback. Gli elementi progettuali più importanti per superare il golfo dell'esecuzione sono il mapping, la visibilità, i vincoli e un modello concettuale adeguato.
+
+Il golfo della valutazione corrisponde allo sforzo necessario per interpretare lo stato fisico del dispositivo e capire fino a che punto sono state realizzate le aspettative e le intenzioni iniziali. Il golfo è stretto quando il dispositivo fornisce informazioni sul proprio stato, in una forma facile da cogliere e interpretare. Gli elementi progettuali più importanti per superare il golfo della valutazione sono il feedback e un modello concettuale adeguato.
 
 Entrambi i golfi sono presenti in molti apparati ma ed è importante tenere a mente che l'utente non si deve sentire stupido quando utilizza un prodotto e perciò le difficoltà hanno origine nel design e non nell'utente.
 
@@ -128,7 +128,7 @@ La valutazione si articola anch’essa in tre stadi:
 - interpretazione : elaborare la percezione
 - confrontare : rapportare il risultato allo scopo
 
-Ecco così che si hanno i 7 stadi dell'azione: un per scopo, tre per l'esecuzione e tre per la valutazione.
+Ecco così che si hanno i 7 stadi dell'azione: unp per lo scopo, tre per l'esecuzione e tre per la valutazione.
 La maggior parte delle azioni non richiede che si percorrano tutti e 7 stadi in sequenza, ma quasi nessuna attività si risolve tramite un'azione singola. I sette stadi offrono uno schema per sviluppare nuovi prodotti o servizi. I golfi dell’esecuzione e della valutazione sono i punti più ovvi da cui partire, offrendo entrambi spunti per migliorare il prodotto.
 
 Il modello a 7 stadi del ciclo d'azione è un prezioso sussidio per il design, in quanto introduce una lista di domande fondamentali. In generale, ogni stadio dell’azione richiede specifiche strategie progettuali, e, viceversa, presenta occasioni proprie di disastro.
@@ -486,7 +486,7 @@ Quando una pagina web JavaScript è caricata, viene creato un Document Object Mo
 - Reagire agli eventi
 - Creare nuovi eventi
 
-gli elementi dell'interfaccia sono:
+Gli elementi dell'interfaccia sono:
 
 - Elementi di input
 - Elementi di navigazione
@@ -591,30 +591,30 @@ I passaggi da seguire per la creazione di un caso d'uso sono:
 
 wireframe: per trasmettere la tua idea alle altre persone, si creano progetti che aiutano la comuncazione tra designer e sviluppatori attraverso sketch basici che mostrano la struttura generale.
 
-tipi di wireframe:
+Tipi di wireframe:
 
 - Low fidelity: semplici sketch che si concentrano sulla struttura
 - High fidelity: rappresentazioni dettagliate con una basica interfaccia e icone.
 
-contesto ha un importante ruolo nell'UX design per adattarci ai comportamenti e alle preferenze degli utenti.
+Il contesto ha un importante ruolo nell'UX design per adattarci ai comportamenti e alle preferenze degli utenti.
 
-adattibilità è la capacità di un sistema di adattarsi a diversi contesti senza cambiare la sua struttura e copre le nozioni di:
+L'adattibilità è la capacità di un sistema di adattarsi a diversi contesti senza cambiare la sua struttura e copre le nozioni di:
 
 - Responsive design
 - Accessibilità
 
-il responsive design è un approccio di progettazione che permette ai siti web di adattarsi a diversi dispositivi e dimensioni dello schermo per avere una buona esperienza coerente con tuti i dispositivi.
+Il responsive design è un approccio di progettazione che permette ai siti web di adattarsi a diversi dispositivi e dimensioni dello schermo per avere una buona esperienza coerente con tuti i dispositivi.
 
-tecniche di responsive design:
+Le tecniche di responsive design sono:
 
 - Flexible grid
 - Flexible images
 - Media queries & breakpoints
 
-una filosofia di reposive design è mobile first che consiste nel progettare prima per i dispositivi mobili e poi per i desktop e ciò ci fa concentrare prima sulle funzionalità base.
+Una filosofia di reposive design è mobile first che consiste nel progettare prima per i dispositivi mobili e poi per i desktop e ciò ci fa concentrare prima sulle funzionalità base.
 Ciò si oppone alla degradazione in cui si sviluppa prima per i desktop per poi rimuovere alcune funzionalità per adattarsi ai dispositivi mobili perdendo però consistenza dei vari dispositivi.
 
-altre best practise del responsive design:
+Altre best practise del responsive design:
 
 - Keep it simple : design minimal
 - Priorizzare il contenuto
@@ -655,7 +655,7 @@ Lo facciamo attraverso gli user flows che sono una rappresentazione visuale di c
 
 Un innovazione è qualcosa di originale e utile che entra nel mercato e che cambia il modo in cui le persone vivono e lavorano. Spesso è legata al mondo delle invenzioni ma non necessariamente.
 
-sustaining innovation cioè migliorare un prodotto esistente:
+Sustaining innovation cioè migliorare un prodotto esistente:
 
 - Step by step
 - Basso rischio
@@ -665,9 +665,9 @@ sustaining innovation cioè migliorare un prodotto esistente:
 - Basse probabilità di scalare il mercato
 - Target di mercato stabile
 
-disruptive innovation, usato per creare nuovi mercati cerca di non basarsi sulle tecnologie esistenti per raggiungere utenti che non sono serviti dai prodotti esistenti
+Disruptive innovation, usato per creare nuovi mercati cerca di non basarsi sulle tecnologie esistenti per raggiungere utenti che non sono serviti dai prodotti esistenti
 
-human centered desing process cerca di sviluppare un sistema che sia utile e utilizzabile concentrandosi sugli utenti cercando di migliorare l'efficacia e l'efficienza.
+Lo human centered desing process cerca di sviluppare un sistema che sia utile e utilizzabile concentrandosi sugli utenti cercando di migliorare l'efficacia e l'efficienza.
 
 Il product management si occupa del cosa mantre il product development si occupa del come. Lavorano insieme, il product development team prende le specifiche dal product manager e le implementa in un prodotto funzionante.
 
@@ -679,16 +679,16 @@ Ideo ha sviluppato un processo di innovazione human centered che si basa su 3 fa
 
 Ciascuna di queste fase è svolta dal team con un approccio a fisarmonica, seguendo uno schema detto "Double Diamond" in cui all'inizio si lavora per produrre idee e soluzioni in quantità (divergenza) per poi concentrarsi su quelle più promettenti (convergenza).
 
-Design thinking è un approccio all'innovazione che poggia le sue fondamenta sulla capacià di risolvere problemi complessi utilizzando una visione e una gestione del progetto basata sulla creatività.
+Il design thinking è un approccio all'innovazione che poggia le sue fondamenta sulla capacià di risolvere problemi complessi utilizzando una visione e una gestione del progetto basata sulla creatività.
 Si basa su un processo iterativo che cerca di capire l'utente facendo delle assunzioni.
 
-obiettivi:
+Gli obiettivi sono:
 
 - Avvicinarsi al cliente
 - Favorire la creatività e generare idee
 - Sperimenare le idee con prototipi
 
-fasi principali:
+Le fasi principali sono:
 
 1. Empatizzare : identificare il problema e l'obiettivo, scrivendo le personas
 2. Definire : delineare i bisogni degli utenti e le varie categorie di utenti, facendo user stories
@@ -703,7 +703,7 @@ Human centered design e Design thinking sono compatibili e combinabili in un met
 
 agile, scrum e devops
 
-modello waterfall è un metodologia lineare per lo sviluppo di progetti in cui ogni fase ricasca sulla successiva ed è strutturato in 5 parti:
+Il metodo di sviluppo classico è sicuramento il modello waterfall, una metodologia lineare per lo sviluppo di progetti in cui ogni fase ricasca sulla successiva ed è strutturato in 5 parti:
 
 1. Analisi dei requisiti
 2. Progettazione
@@ -711,6 +711,7 @@ modello waterfall è un metodologia lineare per lo sviluppo di progetti in cui o
 4. Collaudo
 5. Manutenzione
 
+Dal modello waterfall sono poi nati altri modelli.
 Il modello agile è un metodo di sviluppo software che si basa sul creare e rispondere al cambiamento e pone le fondamenta sui 12 principi del manifesto per sviluppo software agile
 Una cosa che contraddistingue agile è il fatto di concentrarsi sulle persone che fanno il loro lavoro e come lavorano insieme.
 Le soluzioni vengono raggiunte attraverso la collaborazione tra team multidisciplinari e auto-organizzati.
@@ -772,13 +773,13 @@ Flusso del pretotyping
 4. Testare il pretotype : mettere il pretotipo nel mondo reale e vedere quante persone sono interessate e quante ci interagiscono
 5. Imparare, rifinire, hyperzoom : valutare i risultati, rifinire il pretotipo con i nuovi dati e se l'ipotesi ha retto decidere altre situazioni in cui testare il pretotipo per avere una visione completa.
 
-tipi di pretotyping
+Tipi di pretotyping:
 
 - Fake door : un marketing entry point per un prodotto che non esiste ancora e può essere utliizzato per pubblicizzare un servizio non ancora pronto e misurare l'interesse degli utenti. Serve per capire se l'oggetto che si vuole sviluppare può avere successo e risparmiare tempo e denaro. Si può utilizzare questo pretotyping qunado l'idea può essere descritta in poche e semplici parole, senza possedere nulla di fisico.
 - Mechanical turk : un servizio che permette di simulare e trasmettere l'esperienza del prodotto finale ad un utente senza che esso sia sviluppato per mostrare la reale esperienza che l'utente avrà con il prodotto.
 - Impersonator : è un pretotipo che riesce a far sperimentare un'esperienza all'utente in modo estremamente economico e con lavoro minimo dietro.
 - Pinocchio : è un pretotipo chiaramente falso che serve per veicolare un messagio così distante dalla realtà che è faticoso e difficile da spiegare in altri linguaggi naturali, usato spesso per testare l'interesse e il possibile uso di prodotti innovativi non ancora lanciati da nessuno, nemmeno in maniera simile, su mercato.
-- One night stand : una tecnica di veicolazione di un pretotipo che consiste in un market test che offre solo l'esperienza senza alcun altro tipo di infrastruttura
+- One night stand : una tecnica di veicolazione di un pretotipo che consiste in un market test che offre solo l'esperienza senza alcun altro tipo di infrastruttura in una finestra di tempo limitata
 - Facade : è un impersonator ma è usato per dare un'immagine dell'azienda e non del prodotto stesso e viene spesso usato per promuovere servizi.
 
 Dopo aver superato le varie fasi di pretotyping ed aver accumulato una sicurezza sufficiente per il successo del prodotto, lo step successivo è quello di produrre il Minimum Viable Product cioè la versione minimale del prodotto contenente solo ed eslusivamente le features che si sono pretotipate attraverso la fase precedente. Non si hanno le mani sul prodotto definitivo ma su qualcosa di vendibile, in modo da ottenere del ricavo e dell'utile che se sufficiente permetterebbe la produzione del prodotto finale.
@@ -857,7 +858,7 @@ In futuro, le aziende di successo utilizzeranno l'Internet of Things per ottener
 
 Un digital twin è una replica digitale di un'entità fisica che vengono collegate con un ponte che gli fa scambiare dati ma esistere simultaneamente.
 
-un prodotto smart è un prodotto fisico che ha un servizio digitale al suo centro.
+Un prodotto smart è un prodotto fisico che ha un servizio digitale al suo centro.
 
 Fare design per un prodotto delle Internet of Things è interamente più complesso del design di un servizio web.
 
@@ -866,7 +867,7 @@ UX per IoT richiede una natura specializzata, un abilità di connettere mondo di
 Molte cose dell'IoT sono dispositivi informatici integrati e specializzati, che differentemente dai computer, i loro software e hardware sonon ottimizzati e compiono solo specifiche funzioni.
 La loro UI non è semplicemente a livello software ma spesso è estesa con schermi e bottoni per l'uso di vari controlli e ciò cambia le interazioni che hanno gli utenti con il device che non hanno più il beneficio delle guide che avevano sul web.
 
-nuovi principi del design
+Nuovi principi del design
 
 - UX per IoT
 - Device specializzati con differenti capacità
