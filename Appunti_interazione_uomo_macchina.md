@@ -338,7 +338,7 @@ HID sistemi di puntamento
 
 Sono dispositivi che trasferiscono input di tipo spaziale verso un computer come movimenti fisici dell'utente attraverso movimenti di punatori o altri cambiamenti visivi. Si definisce in merito la legge di Fitt per il calcolo del tempo di movimento.
 
-legge di Fitt:  MT = a + b * log2 (2D/W)
+Legge di Fitt:  MT = a + b * log2 (2D/W)
 
 con a definito come il tempo in secondi necessario per iniziare o smettere di muoversi, b la velocità del dispositivo, D la distanza dal punto iniziale al centro dell'obiettivo, W la larghezza dell'obiettivo misurata lungo l'asse su cui ci si sta muovendo.
 
@@ -407,7 +407,7 @@ Poichè una NUI sia considerata tale si richiedono:
 - Interazione diretta
 - Basso carico cognitivo
 
-una strategia per realizzare NUI è l'uso della Reality User Interface (RUI), anche conosiuta come Reality-Based Interface (RBI). Un esempio di RUI è l'uso di device indossabili per rendere clickabili oggetti del mondo reale.
+Una strategia per realizzare NUI è l'uso della Reality User Interface (RUI), anche conosiuta come Reality-Based Interface (RBI). Un esempio di RUI è l'uso di device indossabili per rendere clickabili oggetti del mondo reale.
 Invece un esempio di NUI non basata su RBI è limitare le funzionalità e le personalizzazioni in modo che gli utenti abbiano ben poco da imparare.
 
 ## Graphical User Interface (GUI)
@@ -701,8 +701,6 @@ Human centered design e Design thinking sono compatibili e combinabili in un met
 
 ## Metodi di sviluppo per prodotti innovativi
 
-agile, scrum e devops
-
 Il metodo di sviluppo classico è sicuramento il modello waterfall, una metodologia lineare per lo sviluppo di progetti in cui ogni fase ricasca sulla successiva ed è strutturato in 5 parti:
 
 1. Analisi dei requisiti
@@ -725,7 +723,7 @@ Ci sono 3 ruoli principali in scrum:
 - Scrum master : responsabile del processo e del team
 - Team : responsabile dello sviluppo del prodotto
 
-modello devops è sottocategoria agile per cloud che ha la necessita di avere una gestione più flessibile, affidabile, sicura e contollabile gestione dei rilasci con cicli di rilascio più brevi e frequenti.
+Il modello devops è sottocategoria agile per cloud che ha la necessita di avere una gestione più flessibile, affidabile, sicura e contollabile gestione dei rilasci con cicli di rilascio più brevi e frequenti.
 
 ## Prototipazione di interfacce
 
@@ -748,14 +746,14 @@ Tra un'idea astratta e un prototipo c'è un'area grigia in cui si può fare pret
 I pretotipi ci danno la possibilità di collezzionare dati per il mercato che ci aiutano a decidere se iniziare ad investire sull'idea.
 Un pretotipo è un mock-up di un prodotto o servizio che può essere costruito in poco tempo.
 
-obiettivi del pretotyping sono aiutare a:
+Gli obiettivi del pretotyping sono aiutare a:
 
 - Identificare funzionalià chiave
 - Decidere le funzionalità da implemtare nel mockup
 - Test sui mockup e collezione dei feedback e dati
 - Analisi dei dati e determinare il prossimo passo
 
-i 7 pilasti del pretotyping:
+I 7 pilasti del pretotyping:
 
 - Obbedire alla legge del fallimento del mercato
 - Assicurarsi di star costruendo il prodotto giusto
@@ -892,7 +890,7 @@ Nell'UX design, un altro concetto chiave è l'utility che si riferisce alle funz
 
 Usabilità e Utility sono due concetti diversi ma correlati e devono essere sempre buoni entrambi poiché importa poco se qualcosa è facile da usare se non è utile e non è buono se un sistema può ipoteticamente fare quallo che vuoi ma è difficile da usare. Quindi, per far sì che qualcosa sia utile, c'è bisogno che abbia una buona usabilità e utility.
 Quindi testare è essenziale per creare prodotti che incontrano le necessità degli utenti e le aspettative del principio dell'HCD.
-Come metodologia di ricerca dei problemi definiamo un usability-testing session in cui un ricercatore(chiamato facilitatore o moderatore) chiede ad un partecipante di completare delle attività utilizzando il prodotto o servizio in questione mentre gli altri ricercatori osservano e prendono appunti dai feedback.
+Come metodologia di ricerca dei problemi definiamo un usability-testing session in cui un ricercatore (chiamato facilitatore o moderatore) chiede ad un partecipante di completare delle attività utilizzando il prodotto o servizio in questione mentre gli altri ricercatori osservano e prendono appunti dai feedback.
 
 Valutazione Euristica
 
