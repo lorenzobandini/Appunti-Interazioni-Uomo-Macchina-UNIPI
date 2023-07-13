@@ -20,7 +20,7 @@ Il processo di Product Design è un processo strutturato che include varie figur
 
 ## Human Centered Design
 
-Lo Human Centered Design (HCD) è una metodologia di progettazione che parte dai bisogni, dalle capapcità e dai comportamenti umani, adattando la progettazioni a quei bisogno, quelle capacità e dai comportamenti umani. Lo HCD è un approccio che mette al centro dell'attenzione l'utente e le sue esigenze a differenza di un approccio tecno-centrico che non si concentra a cercare tecnologie che possano risolvere i problemi degli utenti ma cerca problemi da risolvere con nuove tecnologie.
+Lo Human Centered Design (HCD) è una metodologia di progettazione che parte dai bisogni, dalle capacità e dai comportamenti umani, adattando la progettazioni a quei bisogno, quelle capacità e dai comportamenti umani. Lo HCD è un approccio che mette al centro dell'attenzione l'utente e le sue esigenze a differenza di un approccio tecno-centrico che non si concentra a cercare tecnologie che possano risolvere i problemi degli utenti ma cerca problemi da risolvere con nuove tecnologie.
 Per questo lo HCD parte dall'osservazione dell'utente e dai suoi comportamente e solo identifica la tecnologia necessaria. Progettare interfacce che funzionano fintanto che le cose vanno bene è relativamente facile, ma la comunicazione è ancora più importante quando le cose non vanno bene ed è qui che i progettisti devono concentrare la loro attenzione non a non far presentare errori agli utenti, poiché inevitabile, ma progettare un interfaccia che guidi l'utente nella risoluzione in modo che l'utente non si senta frustrato.
 L'obiettivo della forma di pensiero HCD deve dunque essere quello di creare nell'utente empatia verso il sistema.
 
